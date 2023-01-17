@@ -1,0 +1,149 @@
+[{
+    "date": "2015-04-02",
+    "name": "陳炳宏",
+    "title": "Research on the definition and model of software testing quality"
+}, {
+    "date": "2015-03-26",
+    "name": "古健樺",
+    "title": "Design and development of a user interface to customize web testing scenarios"
+}, {
+    "date": "2015-03-26",
+    "name": "林承甫",
+    "title": "Type Analysis for JavaScript"
+}, {
+    "date": "2015-03-19",
+    "name": "鄭荃樺",
+    "title": "Mobile Malware Security Challeges and Cloud-Based Detection"
+}, {
+    "date": "2015-03-19",
+    "name": "黃睿哲",
+    "title": "SmartDroid: an Automatic System for Revealing UI-based Trigger Conditions in Android Applications"
+}, {
+    "date": "2015-03-12",
+    "name": "蔡泳誠",
+    "title": "Security Threats in Cloud Computing"
+}, {
+    "date": "2015-03-12",
+    "name": "陳季宣",
+    "title": "Android Input Events"
+}, {
+    "date": "2015-03-05",
+    "name": "楊凱霖",
+    "title": "Duplicate code detection using anti-unification"
+}, {
+    "date": "2015-02-12",
+    "name": "林容榆",
+    "title": "Smartphone-Centred Wearable Sensors Network for Monitoring Patients with Bipolar Disorder"
+}, {
+    "date": "2015-01-29",
+    "name": "朱宏文",
+    "title": "Mobile Load Testing Challenges"
+}, {
+    "date": "2015-01-29",
+    "name": "周世邦",
+    "title": "Comparing Openstack and VMware"
+}, {
+    "date": "2015-01-22",
+    "name": "舒一斌",
+    "title": "Selective Just-in-Time Compilation for Client-side Mobile JavaScript Engine"
+}, {
+    "date": "2015-01-22",
+    "name": "歐陽騰",
+    "title": "An Amulet for Trustworthy Wearable mHealth"
+}, {
+    "date": "2015-01-15",
+    "name": "徐嘉陞",
+    "title": "An HTML5 Game Framework Supporting Automatic Game Testing"
+}, {
+    "date": "2015-01-15",
+    "name": "陳祐翎",
+    "title": "Security Testing in Android Networks - A Practical Case Study"
+}, {
+    "date": "2014-12-25",
+    "name": "陳炳宏",
+    "title": "A keyword-driven tool for testing Web applications (KeyDriver)"
+}, {
+    "date": "2014-12-18",
+    "name": "古健樺",
+    "title": "Crushinator: A Framework towards Game-Independent Testing"
+}, {
+    "date": "2014-12-18",
+    "name": "崔宏康",
+    "title": "Activity Page based Functional Test Automation for Android Application"
+}, {
+    "date": "2014-12-04",
+    "name": "鄭荃樺",
+    "title": "About Penetration Testing"
+}, {
+    "date": "2014-12-04",
+    "name": "林承甫",
+    "title": "Crawling AJAX by Inferring User Interface State Changes"
+}, {
+    "date": "2014-11-27",
+    "name": "蔡泳誠",
+    "title": "Study of Methodology of Testing Mobile Games based on TTCN-3"
+}, {
+    "date": "2014-11-20",
+    "name": "楊凱霖",
+    "title": "PBGT tool: an integrated modeling and testing environment for pattern-based GUI testing"
+}, {
+    "date": "2014-11-06",
+    "name": "黃睿哲",
+    "title": "Automating GUI Testing for Android Applications"
+}, {
+    "date": "2014-10-30",
+    "name": "陳科銘",
+    "title": "Accelerated test execution using GPUs"
+}, {
+    "date": "2014-10-30",
+    "name": "陳季宣",
+    "title": "CRAXDroid: Automatic Android System Testing by Selective Symbolic Execution"
+}, {
+    "date": "2014-10-16",
+    "name": "陳炳宏",
+    "title": "Resilient User Interface Level Tests"
+}, {
+    "date": "2014-10-16",
+    "name": "陳季宣",
+    "title": "CRAXDroid: Automatic Android System Testing by Selective Symbolic Execution"
+}, {
+    "date": "2014-10-09",
+    "name": "朱宏文",
+    "title": "Scenario-Based Approach for Blackbox Load Testing of Online Game Servers"
+}, {
+    "date": "2014-10-02",
+    "name": "舒一斌",
+    "title": "A Scalable Architecture for the HTML5 X3D Integration Model X3DOM "
+}, {
+    "date": "2014-09-25",
+    "name": "徐嘉陞",
+    "title": "What do game developers test in their products?"
+}, {
+    "date": "2014-09-25",
+    "name": "陳祐翎",
+    "title": "A Whitebox Approach for Automated Security Testing of Android Applications on the Cloud"
+}, {
+    "date": "2014-09-04",
+    "name": "陳炳宏",
+    "title": "Microscopic Coupling Metrics for Refactoring"
+}, {
+    "date": "2014-08-28",
+    "name": "朱宏文",
+    "title": "Performance Testing Web Applications on the Cloud"
+}, {
+    "date": "2014-08-21",
+    "name": "舒一斌",
+    "title": "HTML5 and WebSockets; challenges in network 3D collaboration"
+}, {
+    "date": "2014-08-21",
+    "name": "林承甫",
+    "title": "Modeling the Navigation Behavior of Dynamic Web Applications"
+}, {
+    "date": "2014-08-14",
+    "name": "徐嘉陞",
+    "title": "A framework for automated testing of javascript web applications"
+}, {
+    "date": "2014-08-07",
+    "name": "黃睿哲",
+    "title": "Automatic Android GUI Traversal with High Coverage"
+}]

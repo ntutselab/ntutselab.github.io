@@ -1,0 +1,73 @@
+[{
+    "name": "65-inch LCD screen",
+    "photo": "./image/equipments/screen_65.png",
+    "type": "electronic product"
+},{
+    "name": "Computer for Machine Learning(1080ti*3)",
+    "photo": "./image/equipments/learning_3.png",
+    "type": "electronic product"
+}, {
+    "name": "Computer for Machine Learning(1080ti*3)",
+    "photo": "./image/equipments/learning_1.png",
+    "type": "electronic product"
+}, {
+    "name": "Computer for Machine Learning(1080ti*2)",
+    "photo": "./image/equipments/learning_2.png",
+    "type": "electronic product"
+}, {
+    "name": "Intel i7 laptop",
+    "photo": "./image/equipments/laptop.png",
+    "type": "electronic product"
+},{
+    "name": "Nexus tablet",
+    "photo": "./image/equipments/tablet.png",
+    "type": "electronic product"
+}, {
+    "name": "Server",
+    "photo": "./image/equipments/server.png",
+    "type": "electronic product"
+}, {
+    "name": "Fridge",
+    "photo": "./image/equipments/refrigerator.png",
+    "type": "other"
+}, {
+    "name": "External DVD burner",
+    "photo": "./image/equipments/dvd.png",
+    "type": "electronic product"
+}, {
+    "name": "Intel i7 SSD personal computer",
+    "photo": "./image/equipments/pc.png",
+    "type": "electronic product"
+}, {
+    "name": "laser printer",
+    "photo": "./image/equipments/printer.png",
+    "type": "electronic product"
+}, {
+    "name": "24-inch LCD screen",
+    "photo": "./image/equipments/screen.png",
+    "type": "electronic product"
+}, {
+    "name": "Projector",
+    "photo": "./image/equipments/projector.png",
+    "type": "electronic product"
+}, {
+    "name": "Scanner",
+    "photo": "./image/equipments/scanner.png",
+    "type": "electronic product"
+}, {
+    "name": "Embedded development board",
+    "photo": "./image/equipments/microprocessor.png",
+    "type": "electronic product"
+}, {
+    "name": "Mobile phone for cloud testing",
+    "photo": "./image/equipments/mobiles.png",
+    "type": "electronic product"
+}, {
+    "name": "Water dispenser",
+    "photo": "./image/equipments/water.png",
+    "type": "other"
+},{
+    "name": "Electric stapler",
+    "photo": "./image/equipments/stapler.png",
+    "type": "other"
+}]

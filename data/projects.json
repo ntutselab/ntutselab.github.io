@@ -1,0 +1,514 @@
+[
+  {
+    "year": "109-110",
+    "funding_agency": "科技部",
+    "funding_agency_en": "MOST",
+    "project_name": "Android應用程式執行時異常偵測之研究",
+    "project_name_en": "Research on Exception Detection During Android Application Execution",
+    "comments": "主持人"
+  },
+  {
+    "year": "108-109",
+    "funding_agency": "科技部",
+    "funding_agency_en": "MOST",
+    "project_name": "以強化學習為基礎之網路應用程式智慧爬蟲",
+    "project_name_en": "Web Application Smart Crawler Based on Reinforcement Learning",
+    "comments": "主持人"
+  },
+  {
+    "year": "107-108",
+    "funding_agency": "科技部",
+    "funding_agency_en": "MOST",
+    "project_name": "程式碼Feature Envy壞味道偵測方法之研究",
+    "project_name_en": "Research on the Bad Taste Detection Method of Code Feature Envy",
+    "comments": "主持人"
+  },
+  {
+    "year": "106-107",
+    "funding_agency": "科技部",
+    "funding_agency_en": "MOST",
+    "project_name": "支援互動遞增式使用者指引與自動測試案例產生之網頁爬蟲",
+    "project_name_en": "Web Crawler Supporting Interactive Incremental User Guidance and Automatic Test Case Generation",
+    "comments": "主持人"
+  },
+  {
+    "year": "106-107",
+    "funding_agency": "科技部",
+    "funding_agency_en": "MOST",
+    "project_name": "植基於GUI爬蟲技術以測試Android應用程式之研究 (I) (MOST 106-2221-E-027-008 -)",
+    "project_name_en": "Research on testing Android applications based on GUI crawler technology (I) (MOST 106-2221-E-027-008 -)",
+    "comments": "主持人"
+  },
+  {
+    "year": "106-107",
+    "funding_agency": "聯齊科技股份有限公司",
+    "funding_agency_en": "NextDrive",
+    "project_name": "物聯網測試技術研究與開發",
+    "project_name_en": " Internet of Things Testing Technology Research and Development",
+    "comments": "共同主持人"
+  },
+  {
+    "year": "105",
+    "funding_agency": "資策會",
+    "funding_agency_en": "Institute for Information Industry",
+    "project_name": "多裝置管理控制技術",
+    "project_name_en": "Multi-device management control technology",
+    "comments": "主持人"
+  },
+  {
+    "year": "105-106",
+    "funding_agency": "台灣電子檢驗中心",
+    "funding_agency_en": "Taiwan Testing and Certification Center",
+    "project_name": "智慧行動裝置測試技術研究",
+    "project_name_en": "Multi-device management control technology",
+    "comments": "共同主持人"
+  },
+  {
+    "year": "105-106",
+    "funding_agency": "科技部",
+    "funding_agency_en": "MOST",
+    "project_name": "Android應用程式關鍵字驅動測試與植基於模型測試之研究(II)(105-2221-E-027-086-)",
+    "project_name_en": "Keyword-driven testing and model-based testing of Android applications (II) (105-2221-E-027-086-)",
+    "comments": "主持人"
+  },
+  {
+    "year": "105-106",
+    "funding_agency": "科技部",
+    "funding_agency_en": "MOST",
+    "project_name": "圖形使用者介面測試腳本壞味道自動偵測之研究(II)",
+    "project_name_en": "Study on Automatic Detection of Bad Smell in GUI Test Scripts (II)",
+    "comments": "主持人"
+  },
+  {
+    "year": "104",
+    "funding_agency": "台灣電子檢驗中心",
+    "funding_agency_en": "Taiwan Testing and Certification Center",
+    "project_name": "Android應用程式伺服器壓力測試",
+    "project_name_en": "Android Application Server Stress Test",
+    "comments": "主持人"
+  },
+  {
+    "year": "104-105",
+    "funding_agency": "科技部",
+    "funding_agency_en": "MOST",
+    "project_name": "Android應用程式關鍵字驅動測試與植基於模型測試之研究 (104-2221-E-027-009-)",
+    "project_name_en": "Keyword-driven testing and model-based testing of Android applications (104-2221-E-027-009-)",
+    "comments": "主持人"
+  },
+  {
+    "year": "104-105",
+    "funding_agency": "科技部",
+    "funding_agency_en": "MOST",
+    "project_name": "圖形使用者介面測試腳本壞味道自動偵測之研究",
+    "project_name_en": "Study on Automatic Detection of Bad Smell in GUI Test Scripts",
+    "comments": "主持人"
+  },
+  {
+    "year": "104",
+    "funding_agency": "工研院",
+    "funding_agency_en": "ITRT",
+    "project_name": "網頁測試輸入資訊產生方法研究",
+    "project_name_en": "Research on the Generation Method of Webpage Test Input Information",
+    "comments": "主持人"
+  },
+  {
+    "year": "104",
+    "funding_agency": "優三第科技",
+    "funding_agency_en": "Yousandi Technology",
+    "project_name": "雲端伺服器效能測試",
+    "project_name_en": "Cloud Server Performance Test",
+    "comments": "共同主持人"
+  },
+  {
+    "year": "103-105",
+    "funding_agency": "台灣電子檢驗中心",
+    "funding_agency_en": "Taiwan Testing and Certification Center",
+    "project_name": "軟體測試驗證發展",
+    "project_name_en": "Software Testing Verification Development",
+    "comments": "共同主持人"
+  },
+  {
+    "year": "103-104",
+    "funding_agency": "國科會",
+    "funding_agency_en": "National Science Council",
+    "project_name": "整合式雲端測試：平台與服務之開發－總計畫暨子計畫一：Android App伺服器效能測試服務之開發 (III)",
+    "project_name_en": "Integrated Cloud Testing: Platform and Service Development - Overall Project and Sub- Project 1 : Development of Android App Server Performance Testing Service (III)",
+    "comments": "自由軟體整合型計劃之<br />總計劃主持人"
+  },
+  {
+    "year": "103-104",
+    "funding_agency": "科技部",
+    "funding_agency_en": "MOST",
+    "project_name": "整合式雲端測試:平台與服務之開發-總計畫暨子計畫一:Android App伺服器效能測試服務之開發 (III)(103-2221-E-027-063-)",
+    "project_name_en": "Integrated Cloud Testing: Platform and Service Development - Overall Project and Sub-Project 1 : Development of Android App Server Performance Testing Service (III) (103-2221-E-027-063-)",
+    "comments": "共同主持人"
+  },
+  {
+    "year": "103-104",
+    "funding_agency": "科技部",
+    "funding_agency_en": "MOST",
+    "project_name": "整合式雲端測試:平台與服務之開發-子計畫四:平行執行測試服務之開發(III)(103-2221-E-027-066-)",
+    "project_name_en": "Integrated Cloud Testing: Platform and Service Development-Sub-Project 4: Parallel Execution Test Service Development (III) (103-2221-E-027-066-)",
+    "comments": "主持人"
+  },
+  {
+    "year": "103",
+    "funding_agency": "Garmin",
+    "funding_agency_en": "Garmin",
+    "project_name": "Automotive SPICE軟體流程技術引進",
+    "project_name_en": "Automotive SPICE software process technology introduction",
+    "comments": "共同主持人"
+  },
+  {
+    "year": "103",
+    "funding_agency": "個人",
+    "funding_agency_en": "Individual",
+    "project_name": "手機多人對戰遊戲研發(第二期)",
+    "project_name_en": "Mobile Multiplayer Battle Game Development (Phase 2)",
+    "comments": "主持人"
+  },
+  {
+    "year": "103",
+    "funding_agency": "熊現科技",
+    "funding_agency_en": "Bearsoft Taiwan",
+    "project_name": "環境雲端監控系統開發與測試",
+    "project_name_en": "Development and Testing of Environmental Cloud Monitoring System",
+    "comments": "主持人"
+  },
+  {
+    "year": "103",
+    "funding_agency": "資策會",
+    "funding_agency_en": "Institute for Information Industry",
+    "project_name": "軟體測試工具整合平台開發",
+    "project_name_en": "Software Testing Tool Integration Platform Development",
+    "comments": "主持人"
+  },
+  {
+    "year": "103",
+    "funding_agency": "麗行資訊",
+    "funding_agency_en": "Lixing Information",
+    "project_name": "旅遊平台相關開發與測試",
+    "project_name_en": "Tourism Platform Related Development and Testing",
+    "comments": "主持人"
+  },
+  {
+    "year": "103",
+    "funding_agency": "資策會",
+    "funding_agency_en": "Institute for Information Industry",
+    "project_name": "大型軟體系統程式碼視覺化分析",
+    "project_name_en": "Visual Analysis of Large-scale Software System Code",
+    "comments": "協同主持人"
+  },
+  {
+    "year": "102-103",
+    "funding_agency": "國科會",
+    "funding_agency_en": "National Science Council",
+    "project_name": "整合式雲端測試：平台與服務之開發(II)－子計畫一：網際網路應用程式測試服務之開發 (NSC 102-2218-E-027 -006)",
+    "project_name_en": "Integrated Cloud Testing: Platform and Service Development (II) - Sub-Project 1 : Development of Internet Application Testing Services (NSC 102-2218-E-027-006)",
+    "comments": "主持人自由軟體計畫"
+  },
+  {
+    "year": "102-103",
+    "funding_agency": "科技部",
+    "funding_agency_en": "MOST",
+    "project_name": "整合式雲端測試:平台與服務之開發-總計畫暨子計畫三:整合式雲端測試:持續整合與測試環境虛擬化之開發(II)(102-2218-E-027-005-)",
+    "project_name_en": "Integrated Cloud Testing: Development of Platforms and Services - Overall Project and Sub-Project Three: Integrated Cloud Testing: Continuous Integration and Development of Test Environment Virtualization (II) (102-2218-E-027-005-) ",
+    "comments": "共同主持人"
+  },
+  {
+    "year": "102-103",
+    "funding_agency": "科技部",
+    "funding_agency_en": "MOST",
+    "project_name": "整合式雲端測試：平台與服務之開發－子計畫四:平行執行測試服務之開發(II) (102-2218-E-027-008-)",
+    "project_name_en": "Integrated Cloud Testing: Platform and Service Development - Sub-Project 4: Parallel Execution Test Service Development (II) (102-2218-E-027-008-)",
+    "comments": "主持人"
+  },
+  {
+    "year": "102",
+    "funding_agency": "個人",
+    "funding_agency_en": "Individual",
+    "project_name": "手機多人對戰遊戲研發(第一期)",
+    "project_name_en": "Mobile Multiplayer Battle Game Development (Phase 1)",
+    "comments": "主持人"
+  },
+  {
+    "year": "101-102",
+    "funding_agency": "國科會",
+    "funding_agency_en": "National Science Council",
+    "project_name": "整合式雲端測試：平台與服務之開發－子計畫一：網際網路應用程式測試服務之開發 (NSC 101-2221-E-027-065)",
+    "project_name_en": "Integrated Cloud Testing: Platform and Service Development - Sub-Project 1 : Internet Application Testing Service Development (NSC 101-2221-E-027-065)",
+    "comments": "主持人自由軟體計畫"
+  },
+  {
+    "year": "101-102",
+    "funding_agency": "科技部",
+    "funding_agency_en": "MOST",
+    "project_name": "整合式雲端測試:平台與服務之開發-總計畫暨子計畫三:整合式雲端測試:持續整合與測試環境虛擬化之開發(101-2221-E-027-064-)",
+    "project_name_en": "Integrated Cloud Testing: Platform and Service Development -Overall Project cum Sub-Project 3: Integrated Cloud Testing: Continuous Integration and Development of Test Environment Virtualization (101-2221-E-027-064-)",
+    "comments": "共同主持人"
+  },
+  {
+    "year": "101-102",
+    "funding_agency": "科技部",
+    "funding_agency_en": "MOST",
+    "project_name": "整合式雲端測試:平台與服務之開發-子計畫四:平行執行測試服務之開發(101-2221-E-027-067-)",
+    "project_name_en": "Integrated Cloud Testing: Development of Platforms and Services - Sub-Project 4: Development of Parallel Execution Testing Services (101-2221-E-027-067-)",
+    "comments": "主持人"
+  },
+  {
+    "year": "101",
+    "funding_agency": "經濟部工業局",
+    "funding_agency_en": "IDB",
+    "project_name": "以Scrum流程為基礎之Android數位內容應用開發(數位內容產業發展躍進計畫-人才培訓委外計畫)",
+    "project_name_en": "Development of Android Digital Content Application Based on Scrum Process (Digital Content Industry Development Leap Forward Project - Talent Training Outsourcing Project)",
+    "comments": "主持人"
+  },
+  {
+    "year": "100-101",
+    "funding_agency": "科技部",
+    "funding_agency_en": "MOST",
+    "project_name": "Android軟體錄製與播放測試工具之研發(100-2218-E-027-006-)",
+    "project_name_en": "Development of Android software recording and playback testing tools (100-2218-E-027-006-)",
+    "comments": "主持人"
+  },
+  {
+    "year": "100-101",
+    "funding_agency": "教育部",
+    "funding_agency_en": "Ministry of Education",
+    "project_name": "資訊軟體人才培育行動終端應用課程發展專案計畫--行動裝置遊戲開發(課程1)",
+    "project_name_en": "nformation Software Talent Cultivation Mobile Terminal Application Curriculum Development Project--Mobile Device Game Development (Course 1)",
+    "comments": "編撰Android遊戲開發教材"
+  },
+  {
+    "year": "100-101",
+    "funding_agency": "金緻網路資訊服務",
+    "funding_agency_en": "Jinzhi Internet Information Service",
+    "project_name": "雲端儲存伺服器評估",
+    "project_name_en": "Cloud Storage Server Evaluation",
+    "comments": "主持人"
+  },
+  {
+    "year": "100-101",
+    "funding_agency": "國科會",
+    "funding_agency_en": "National Science Council",
+    "project_name": "以表格為基礎的自動化圖形使用者介面驗收測試 (NSC 100-2221-E-027-054)",
+    "project_name_en": "Form-Based Automated Graphical User Interface Acceptance Testing (NSC 100-2221-E-027-054)",
+    "comments": "主持人"
+  },
+  {
+    "year": "100-101",
+    "funding_agency": "教育部",
+    "funding_agency_en": "Ministry of Education",
+    "project_name": "資訊軟體人才培育推動中心軟體工程推廣分項計畫，子計畫3-4：課程發展「物件導向程式設計課程之軟體工程輔助教材」",
+    "project_name_en": "Information Software Talent Cultivation and Promotion Center Software Engineering Promotion Sub-Project, Sub-Project 3-4: Curriculum Development \"Software Engineering Auxiliary Textbook for Object-Oriented Programming Course\"",
+    "comments": "主持人"
+  },
+  {
+    "year": "90-100",
+    "funding_agency": "經濟部",
+    "funding_agency_en": "Ministry of Economic Affairs",
+    "project_name": "導入Scrum軟體流程與最佳實務於ICT/CE產品研發之三年計畫(第二年度)之子計畫：軟體測試技術導入研究",
+    "project_name_en": "Introduction of Scrum software process and best practices into ICT/CE product development three-year plan (second year) sub-project: software testing technology introduction research",
+    "comments": "主持人科專計畫"
+  },
+  {
+    "year": "99-100",
+    "funding_agency": "國科會",
+    "funding_agency_en": "National Science Council",
+    "project_name": "嵌入式DVB-H 接收系統之開發－子計畫四: DVB-H 傳輸串流解碼軟體之開發(2/2) (NSC 99-2220-E-027-005)",
+    "project_name_en": "Development of Embedded DVB-H Receiving System - Sub-Project 4: Development of DVB-H Transport Stream Decoding Software (2/2) (NSC 99-2220-E-027-005)",
+    "comments": "主持人 自由軟體計畫"
+  },
+  {
+    "year": "99",
+    "funding_agency": "其富國際",
+    "funding_agency_en": "CHIF INTERNATIONAL CO., LTD",
+    "project_name": "手機遊戲之開發與移植",
+    "project_name_en": "Development and Porting of Mobile Games",
+    "comments": "主持人"
+  },
+  {
+    "year": "98-99",
+    "funding_agency": "經濟部",
+    "funding_agency_en": "Ministry of Economic Affairs",
+    "project_name": "導入Scrum軟體流程與最佳實務於ICT/CE產品研發之三年計畫(第一年度)之子計畫：軟體測試技術導入研究 (98-EC-17-A-02-S1-135)",
+    "project_name_en": "Introduction of Scrum Software Process and Best Practices to ICT/CE Product Development Three-Year Plan (First Year) Sub-Project: Software Testing Technology Introduction Research (98-EC-17-A-02-S1-135)",
+    "comments": "主持人 科專計畫"
+  },
+  {
+    "year": "98-99",
+    "funding_agency": "國科會",
+    "funding_agency_en": "National Science Council",
+    "project_name": "嵌入式DVB-H 接收系統之開發－子計畫四: DVB-H 傳輸串流解碼軟體之開發(1/2) (NSC 98-2220-E-027- 005)",
+    "project_name_en": "Development of Embedded DVB-H Receiving System - Sub-Project 4: Development of DVB-H Transport Stream Decoding Software (1/2) (NSC 98-2220-E-027-005)",
+    "comments": "主持人自由軟體計畫"
+  },
+  {
+    "year": "97-98",
+    "funding_agency": "國科會",
+    "funding_agency_en": "National Science Council",
+    "project_name": "WiMAX無線通訊系統軟體與工具開發-總計畫 (III) (NSC 97-2218-E-027-006 )",
+    "project_name_en": "Software and Tools Development for WiMAX Wireless Communication System-General Plan (III) (NSC 97-2218-E-027-006 )",
+    "comments": "自由軟體整合型計劃之<br />總計劃主持人"
+  },
+  {
+    "year": "96-97",
+    "funding_agency": "國科會",
+    "funding_agency_en": "National Science Council",
+    "project_name": "WiMAX無線通訊系統軟體與工具開發-總計畫 (II) (NSC 96-2218-E-224-014)",
+    "project_name_en": "Software and Tools Development for WiMAX Wireless Communication System-General Sketch (II) (NSC 96-2218-E-224-014)",
+    "comments": "自由軟體整合型計劃之<br />總計劃主持人"
+  },
+  {
+    "year": "95-96",
+    "funding_agency": "國科會",
+    "funding_agency_en": "National Science Council",
+    "project_name": "WiMAX無線通訊系統軟體與工具開發-總計畫 (I) (NSC 95-2218-E-027-009)",
+    "project_name_en": "Software and Tools Development for WiMAX Wireless Communication System-General Sketch (I) (NSC 95-2218-E-027-009)",
+    "comments": "自由軟體整合型計劃之<br />總計劃主持人"
+  },
+  {
+    "year": "95-96",
+    "funding_agency": "國科會",
+    "funding_agency_en": "National Science Council",
+    "project_name": "一個GUI測試規格語言之研究(NSC 95-2221-E-027-048)",
+    "project_name_en": "A Study of a GUI Test Specification Language (NSC 95-2221-E-027-048)",
+    "comments": "主持人"
+  },
+  {
+    "year": "95-96",
+    "funding_agency": "教育部",
+    "funding_agency_en": "Ministry of Education",
+    "project_name": "大專校院資訊人才培育先導型計畫─軟體工程學程推廣計畫",
+    "project_name_en": "Information Talents Cultivation Pilot Program in Colleges and Universities - Software Engineering Program Promotion Program",
+    "comments": "主持人"
+  },
+  {
+    "year": "94-95",
+    "funding_agency": "國科會",
+    "funding_agency_en": "National Science Council",
+    "project_name": "一個表格運算的視覺化語言之研究(NSC 94-2213-E-027-038)",
+    "project_name_en": "A Study of the Visual Language of Tabular Operations (NSC 94-2213-E-027-038)",
+    "comments": "主持人"
+  },
+  {
+    "year": "93-94",
+    "funding_agency": "巨盛電子",
+    "funding_agency_en": "Chesen Electronics Corp",
+    "project_name": "音訊即時解碼晶片程式",
+    "project_name_en": "Audio real-time decoding chip program",
+    "comments": "與尤信程老師共同主持"
+  },
+  {
+    "year": "93-94",
+    "funding_agency": "國科會",
+    "funding_agency_en": "National Science Council",
+    "project_name": "GTT測試先行編輯模式之設計與製作 (NSC 93-2218-E-027-041)",
+    "project_name_en": "Design and Production of GTT Test-Ahead Editing Mode (NSC 93-2218-E-027-041)",
+    "comments": "主持人自由軟體計畫"
+  },
+  {
+    "year": "93-94",
+    "funding_agency": "國科會",
+    "funding_agency_en": "National Science Council",
+    "project_name": "一個巢狀式表格報表產生器之研究 (NSC 93-2213-E-027-019)",
+    "project_name_en": "A Study of a Nested Tabular Report Generator (NSC 93-2213-E-027-019)",
+    "comments": "主持人"
+  },
+  {
+    "year": "92-93",
+    "funding_agency": "國科會",
+    "funding_agency_en": "National Science Council",
+    "project_name": "一個Java GUI測試工具的設計與製作(NSC 92-2218-E-027-017)",
+    "project_name_en": "Design and Production of a Java GUI Test Tool (NSC 92-2218-E-027-017)",
+    "comments": "主持人 自由軟體計畫"
+  },
+  {
+    "year": "90-94",
+    "funding_agency": "教育部",
+    "funding_agency_en": "Ministry of Education",
+    "project_name": "多媒體、電腦網路基礎教育與全球資訊網教學平台之建立",
+    "project_name_en": "Multimedia, Computer Network Basic Education and Establishment of Global Information Network Teaching Platform",
+    "comments": "分項計劃主持人"
+  },
+  {
+    "year": "91-92",
+    "funding_agency": "巨盛電子",
+    "funding_agency_en": "Chesen Electronics Corp",
+    "project_name": "MP-3即時編碼器程式開發",
+    "project_name_en": "MP-3 real-time encoder program development",
+    "comments": "與尤信程老師共同主持"
+  },
+  {
+    "year": "90-91",
+    "funding_agency": "巨盛電子",
+    "funding_agency_en": "Chesen Electronics Corp",
+    "project_name": "MP-3即時編碼器晶片之效能評估",
+    "project_name_en": "Evaluation of the performance of MP-3 real-time encoder chip",
+    "comments": "與尤信程老師共同主持"
+  },
+  {
+    "year": "89-90",
+    "funding_agency": "鑫景科技",
+    "funding_agency_en": "LINUX TECHNOLOGY LIMITED",
+    "project_name": "Linux作業系統之VCD/DVD撥放軟體",
+    "project_name_en": "VCD/DVD playback software for Linux operating system",
+    "comments": "台北科大育成中心"
+  },
+  {
+    "year": "87-88",
+    "funding_agency": "國科會",
+    "funding_agency_en": "National Science Council",
+    "project_name": "全球資訊網資料庫應用的CGI程式產生器之研究(NSC 88-2213-E-027-013)",
+    "project_name_en": "Research on CGI Program Generators for World Wide Web Database Applications (NSC 88-2213-E-027-013)",
+    "comments": "主持人"
+  },
+  {
+    "year": "87-88",
+    "funding_agency": "電信所",
+    "funding_agency_en": "Graduate Institute of Communication Engineering",
+    "project_name": "建立無線智慧型網路服務設計平台",
+    "project_name_en": "Establish a wireless intelligent network service design platform",
+    "comments": "與謝金雲、吳和庭老師<br />共同主持"
+  },
+  {
+    "year": "87-88",
+    "funding_agency": "凱琳投資",
+    "funding_agency_en": "Kalyn Investments",
+    "project_name": "無線網際網路系統",
+    "project_name_en": "Wireless Internet System",
+    "comments": "共同主持人"
+  },
+  {
+    "year": "86-87",
+    "funding_agency": "國科會",
+    "funding_agency_en": "National Science Council",
+    "project_name": "Intranet應用與技術之研究 (NSC 87-2213-E-027-011)",
+    "project_name_en": "Research on Intranet Application and Technology (NSC 87-2213-E-027-011)",
+    "comments": "主持人"
+  },
+  {
+    "year": "83-84",
+    "funding_agency": "教育部",
+    "funding_agency_en": "Ministry of Education",
+    "project_name": "通訊科技教育改進計劃",
+    "project_name_en": "Communication Technology Education Improvement Program",
+    "comments": "主持人"
+  },
+  {
+    "year": "83-84",
+    "funding_agency": "教育部",
+    "funding_agency_en": "Ministry of Education",
+    "project_name": "計算機系統教育改進計劃",
+    "project_name_en": "Computer Systems Education Improvement Program",
+    "comments": "主持人"
+  },
+  {
+    "year": "82-83",
+    "funding_agency": "國科會",
+    "funding_agency_en": "National Science Council",
+    "project_name": "專科學校電子工程科畢業生就業技術能力之分析研究(NSC 83-0111-S-027-008-TG)",
+    "project_name_en": "Analysis and Research on the Employability of Electronic Engineering Graduates in Technical Schools (NSC 83-0111-S-027-008-TG)",
+    "comments": "共同主持人"
+  }
+]
