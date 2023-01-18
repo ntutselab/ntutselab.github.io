@@ -1,7 +1,5 @@
-var language = $('html')[0].lang;
-
 /*====================================
-            按鈕觸發翻譯
+        Button Trigger Translate
 ======================================*/
 var option;
 function triggerTranslate(){
@@ -13,72 +11,7 @@ function triggerTranslate(){
 }
 
 /*====================================
-            研究計畫讀取
-======================================*/
-function readResearchPlan() {
-    $.getJSON('./data/projects.json', function(data) {
-        var initString = "<div class=\"item\"><table class=\"table\"><thead><tr><th scope=\"col\">年度</th><th scope=\"col\">單位</th><th scope=\"col\">計畫名稱</th></tr></thead><tbody>";
-        var items_count = 1;
-        data.forEach(element => {
-            if(items_count > 10){
-                initString += "</tbody></table></div>";
-                initString += "<div class=\"item\"><table class=\"table\"><thead><tr><th scope=\"col\">年度</th><th scope=\"col\">單位</th><th scope=\"col\">計畫名稱</th></tr></thead><tbody>";
-                items_count = 1;
-            }
-
-            initString += `
-            <tr>
-                <td>${element.year}</td>
-                <td>${language == 'zh' ? element.funding_agency : element.funding_agency_en}</td>
-                <td class=\"td_title\">${language == 'zh' ? element.project_name : element.project_name_en}</td>
-            </tr>
-            `;
-            items_count += 1;
-        });
-        initString += "</tbody></table></div>";
-        $('#plan').append(initString);
-    });
-}
-
-/*====================================
-            實驗室成員讀取
-======================================*/
-function readLabMember() {
-    $.getJSON('./data/members.json', function(data) {
-        var initString = "";
-        $.each( data, function( key, val ) {
-            let photo = val.photo + "-A.png";
-            if(val.photo == 'none'){
-                photo = 'none_w.png';
-            }
-
-            let paper = `<a href=\"${val.url}\" target=\"blank\">${language == 'zh' ? val.paper : val.paper_en}</a>`;
-            if(val.paper == '未定'){
-                paper = language == 'zh' ? '未定' : 'undecided';
-            }
-
-            initString += `
-            <div class=\"col-xs-6 col-sm-6 col-md-3 col-lg-3 ${val.year} isotope-item\">
-                <div class=\"portfolio-item\">
-                    <div class=\"hover-bg\">
-                        <img data-original=\"image/mugshot/${photo}\" alt=\"...\" class=\"img-circle team-img ${val.year}\">
-                        <div class=\"caption\">
-                            <h3>${language == 'zh' ? val.name : val.englishName}</h3>
-                            <p>${val.year} ${language == 'zh' ? '級' : 'Year'}</p>
-                            <p class=\"p_paper\">論文 : </p>
-                            <p class=\"p_paper\">${paper}</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            `;
-        });
-        $('#lightbox_team').append(initString);
-    });
-}
-
-/*====================================
-            實驗室成員切換
+        Lab Member Switching
 ======================================*/
 function switchLabMember() {
     // Set lightbox_team isotope
@@ -115,35 +48,7 @@ function switchLabMember() {
 }
 
 /*====================================
-            實驗室設備讀取
-======================================*/
-function readLabEquipments() {
-    $.getJSON('./data/equipments.json', function(data) {
-        var initString = "";
-        $.each( data, function( key, value ) {
-            initString += `
-            <div class=\"col-sm-6 col-md-3 col-lg-3 ${value.type} isotope-item \">
-                <div class=\"portfolio-item\">
-                    <div class=\"hover-bg\">
-                        <a href=\"#\">
-                            <div class=\"hover-text\">
-                                <h4>${value.name}</h4>
-                                <div class=\"clearfix\"></div>
-                            </div>
-                            <img src=\"${value.photo}\" class=\"img-responsive\" alt=\"...\">
-                        </a>
-                    </div>
-                </div>
-            </div>
-            `;
-        });
-        $('#lightbox').append(initString);
-    });
-}
-
-
-/*====================================
-            實驗室設備切換
+        Lab Equipment Switching
 ======================================*/
 function switchLabEquipments() {
     var $container = $('#lightbox');
@@ -169,25 +74,6 @@ function switchLabEquipments() {
             }
         });
         return false;
-    });
-}
-
-/*====================================
-            GroupMeeting
-======================================*/
-function readGroupMeeting() {
-    $.getJSON('./data/presentationHistory.json', function(data) {
-        var initString = "";
-        $.each( data, function( key, value ) {
-            initString += `
-            <tr>
-                <td>${value.date}</td>
-                <td>${value.name}</td>
-                <td class=\"td_title\">${value.topic}</td>
-            </tr>
-            `;
-        });
-        $('#table_GroupMeeting').children('tbody').append(initString);
     });
 }
 
@@ -229,11 +115,6 @@ function mainFunction() {
         })
     
         $(document).ready(function() {
-            $("img.team-img").lazyload({
-                effect: "fadeIn",
-                event: "lazylazy"
-            });
-    
             $("#team").owlCarousel({
     
                 navigation : false, // Show next and prev buttons
@@ -283,6 +164,18 @@ function mainFunction() {
                 paginationSpeed : 400,
                 singleItem:true
             });
+
+            /* GroupMeeting DataTable */
+            $('#table_GroupMeeting').DataTable({
+                ordering: false,
+                autoWidth: false
+            });
+
+            /* Images Lazy */
+            $("img.team-img").lazyload({
+                effect: "fadeIn",
+                event: "lazylazy"
+            });
         });
     
         /*====================================
@@ -295,7 +188,3 @@ function mainFunction() {
     }());
 }
 mainFunction();
-readResearchPlan();
-readLabMember();
-readLabEquipments();
-readGroupMeeting();

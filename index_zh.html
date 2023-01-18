@@ -42,6 +42,10 @@
     <link href='http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,700,300,600,800,400' rel='stylesheet' type='text/css'>
 
     <script type="text/javascript" src="js/modernizr.custom.js"></script>
+    
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script type="text/javascript" src="js/jquery.1.11.1.js"></script>
 
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -127,7 +131,7 @@
                                 <p>美國德州大學 阿靈頓分校<br>計算機科學與工程博士</p>
                                 <p>宏裕科技大樓 1523</p>
                                 <img src="./image/email_cliu.jpg" alt="">
-                                <p><a href="http://www.cc.ntut.edu.tw/~cliu" target="blank">http://www.cc.ntut.edu.tw/~cliu</a></p>
+                                <p><a href="https://myweb.ntut.edu.tw/~cliu/" target="blank">https://myweb.ntut.edu.tw/~cliu/</a></p>
                             </div>
                         </div>
                     </div>
@@ -156,20 +160,6 @@
                         </div>
                         <i>Keeping software soft.</i>
                         <p class="intro">會寫程式的人常常以為自己很厲害、很會寫code，但是其實寫程式不等於開發軟體、會開發軟體不等於會設計軟體、可執行的軟體不等於高品質的軟體、十個人一起開發軟體不等於十倍的生產力。我們實驗室專攻“<strong>軟體工程</strong>”，目的是引領會寫code的人做良好的軟體設計，實踐軟體工程實務，成為更優秀的軟體開發人員，讓軟體好擴充、好維護、好修改，成為真正的“<strong>軟</strong>”體 。</p>
-                        <!-- <ul class="about-list">
-                            <li>
-                                <span class="fa fa-dot-circle-o"></span>
-                                <strong>軟體工程</strong> - <em>Software Engineering</em>
-                            </li>
-                            <li>
-                                <span class="fa fa-dot-circle-o"></span>
-                                <strong>軟體開發</strong> - <em>Software Development</em>
-                            </li>
-                            <li>
-                                <span class="fa fa-dot-circle-o"></span>
-                                <strong>軟體測試</strong> - <em>Software Testing</em>
-                            </li>
-                        </ul> -->
                     </div>
                 </div>
             </div>
@@ -280,7 +270,7 @@
                     <div class="col-md-8 col-md-offset-2">
                         <div id="plan" class="owl-carousel owl-theme">
                             
-                            <!-- Research Plan script-->
+                            <!-- Research Plan -->
 
                         </div>
                     </div>
@@ -288,6 +278,32 @@
             </div>
         </div>
     </div>
+    <script>
+        /* Research Plan Script */
+        $.getJSON('./data/projects.json', function(data) {
+            var language = $('html')[0].lang;
+            var initString = "<div class=\"item\"><table class=\"table\"><thead><tr><th scope=\"col\">年度</th><th scope=\"col\">單位</th><th scope=\"col\">計畫名稱</th></tr></thead><tbody>";
+            var items_count = 1;
+            data.forEach(element => {
+                if(items_count > 10){
+                    initString += "</tbody></table></div>";
+                    initString += "<div class=\"item\"><table class=\"table\"><thead><tr><th scope=\"col\">年度</th><th scope=\"col\">單位</th><th scope=\"col\">計畫名稱</th></tr></thead><tbody>";
+                    items_count = 1;
+                }
+
+                initString += `
+                <tr>
+                    <td>${element.year}</td>
+                    <td>${language == 'zh' ? element.funding_agency : element.funding_agency_en}</td>
+                    <td class=\"td_title\">${language == 'zh' ? element.project_name : element.project_name_en}</td>
+                </tr>
+                `;
+                items_count += 1;
+            });
+            initString += "</tbody></table></div>";
+            $('#plan').append(initString);
+        });
+    </script>
 
     <!-- 插圖分隔
     ==========================================-->
@@ -337,11 +353,48 @@
                 </div>
 
                 <div id="lightbox_team" class="row">
-                    <!-- Lab Member Script -->
+
+                    <!-- Lab Member -->
+
                 </div>
             </div>
         </div>
     </div>
+    <script>
+        /* Lab Member Script */
+        $.getJSON('./data/members.json', function(data) {
+            var language = $('html')[0].lang;
+            var initString = "";
+            $.each( data, function( key, val ) {
+                let photo = val.photo + "-A.png";
+                if(val.photo == 'none'){
+                    photo = 'none_w.png';
+                }
+
+                let paper = `<a href=\"${val.url}\" target=\"blank\">${language == 'zh' ? val.paper : val.paper_en}</a>`;
+                if(val.paper == '未定'){
+                    paper = language == 'zh' ? '未定' : 'undecided';
+                }
+
+                initString += `
+                <div class=\"col-xs-6 col-sm-6 col-md-3 col-lg-3 ${val.year} isotope-item\">
+                    <div class=\"portfolio-item\">
+                        <div class=\"hover-bg\">
+                            <img data-original=\"image/mugshot/${photo}\" alt=\"...\" class=\"img-circle team-img ${val.year}\">
+                            <div class=\"caption\">
+                                <h3>${language == 'zh' ? val.name : val.englishName}</h3>
+                                <p>${val.year} ${language == 'zh' ? '級' : 'Year'}</p>
+                                <p class=\"p_paper\">論文 : </p>
+                                <p class=\"p_paper\">${paper}</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                `;
+            });
+            $('#lightbox_team').append(initString);
+        });
+    </script>
 
     <!-- 實驗室設備
     ==========================================-->
@@ -373,11 +426,36 @@
 
             <div id="lightbox" class="row">
 
-                <!-- Lab Equirement Script-->
+                <!-- Lab Equirement -->
 
             </div>
         </div>
     </div>
+    <script>
+        /* Lab Equirement Script */
+        $.getJSON('./data/equipments.json', function(data) {
+            var language = $('html')[0].lang;
+            var initString = "";
+            $.each( data, function( key, value ) {
+                initString += `
+                <div class=\"col-sm-6 col-md-3 col-lg-3 ${value.type} isotope-item \">
+                    <div class=\"portfolio-item\">
+                        <div class=\"hover-bg\">
+                            <a href=\"#\">
+                                <div class=\"hover-text\">
+                                    <h4>${value.name}</h4>
+                                    <div class=\"clearfix\"></div>
+                                </div>
+                                <img src=\"${value.photo}\" class=\"img-responsive\" alt=\"...\">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                `;
+            });
+            $('#lightbox').append(initString);
+        });
+    </script>
 
     <!-- Group Meeting
     ==========================================-->
@@ -402,7 +480,7 @@
                             </thead>
                             <tbody>
 
-                                <!-- Group Meeting Script-->
+                                <!-- Group Meeting List-->
 
                             </tbody>
                         </table>
@@ -411,6 +489,22 @@
             </div>
         </div>
     </div>
+    <script>
+        /* Group Meeting Script*/
+        $.getJSON('./data/presentationHistory.json', function(data) {
+            var initString = "";
+            $.each( data, function( key, value ) {
+                initString += `
+                <tr>
+                    <td>${value.date}</td>
+                    <td>${value.name}</td>
+                    <td class=\"td_title\">${value.topic}</td>
+                </tr>
+                `;
+            });
+            $('#table_GroupMeeting').children('tbody').append(initString);
+        });
+    </script>
 
     <!-- 新生專區
     ==========================================-->
@@ -574,10 +668,6 @@
         </div>
     </div>
 
-
-    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
-    <script type="text/javascript" src="js/jquery.1.11.1.js"></script>
     <!-- Lazyload -->
     <script src="js/jquery.lazyload.js"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
@@ -593,22 +683,12 @@
     <script type="text/javascript" src="js/staticMain.js"></script>
 
     <script>
-    $('.bs-example-modal-lg').on('show.bs.modal', function (event) {
-        var button = $(event.relatedTarget);
-        var recipient = button.data('whatever');
-        var modal = $(this);
-        modal.find('.embed-responsive-item').attr("src",recipient);
-    });
-    </script>
-
-    <!-- DataTable -->
-    <script>
-    $(document).ready(function() {
-        $('#table_GroupMeeting').DataTable({
-            ordering: false,
-            autoWidth: false
+        $('.bs-example-modal-lg').on('show.bs.modal', function (event) {
+            var button = $(event.relatedTarget);
+            var recipient = button.data('whatever');
+            var modal = $(this);
+            modal.find('.embed-responsive-item').attr("src",recipient);
         });
-    } );
     </script>
 
     <!-- google translate -->
