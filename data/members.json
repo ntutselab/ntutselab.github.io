@@ -166,54 +166,54 @@
     "name": "王方顯",
     "englishName":"WANG,FANG-XIAN",
     "photo": "王方顯/",
-    "paper": "未定",
-    "paper_en": "undecided",
-    "url": ""
+    "paper": "用於平行偵測Android應用程式異常之操作注入框架的分散式架構設計",
+    "paper_en": "A Distributed Architecture Design for the Operation-Injection Framework to Detect Android Application Anomalies in Parallel",
+    "url": "A Distributed Architecture Design for the Operation-Injection Framework to Detect Android Application Anomalies in Parallel"
   },
   "吳冠穎": {
     "year": 109,
     "name": "吳冠穎",
     "englishName":"WU,GUAN-YING",
     "photo": "吳冠穎/",
-    "paper": "未定",
-    "paper_en": "undecided",
-    "url": ""
+    "paper": "改善 API 序列生成方法以提高 RESTler 之 REST API 測試效率的研究",
+    "paper_en": "A Study on Improving API Sequence Generation Method to Increase Test Efficiency of REST API for RESTler",
+    "url": "A Study on Improving API Sequence Generation Method to Increase Test Efficiency of REST API for RESTler"
   },
   "卓旭嘉": {
     "year": 109,
     "name": "卓旭嘉",
     "englishName":"ZHUO,XU-JIA",
     "photo": "卓旭嘉/",
-    "paper": "未定",
-    "paper_en": "undecided",
-    "url": ""
+    "paper": "在卷積網路中使用視覺化工具協助人聲分界點之偵測",
+    "paper_en": "Vocal Detection with Visualization Tools in Convolution Neural Networks",
+    "url": "https://hdl.handle.net/11296/jky87z"
   },
   "林敬勛": {
     "year": 109,
     "name": "林敬勛",
     "englishName":"LIN,JING-XUN",
     "photo": "林敬勛/",
-    "paper": "未定",
-    "paper_en": "undecided",
-    "url": ""
+    "paper": "利用GPT-3產生表單內容應用於自動化網頁填寫代理人",
+    "paper_en": "An Automated Webpage Form-filling Agent using GPT-3 Generated Content",
+    "url": "https://hdl.handle.net/11296/4x3w65"
   },
   "陳哲葦": {
     "year": 109,
     "name": "陳哲葦",
     "englishName":"CHEN,ZHE-WEI",
     "photo": "陳哲葦/",
-    "paper": "未定",
-    "paper_en": "undecided",
-    "url": ""
+    "paper": "一個好奇心驅動之 Android 應用程式爬行方法",
+    "paper_en": " Curiosity-Driven Crawling Method for Android Applications",
+    "url": "https://hdl.handle.net/11296/5468j2"
   },
   "賴慈馮": {
     "year": 109,
     "name": "賴慈馮",
     "englishName":"LAI,CI-FENG",
     "photo": "賴慈馮/",
-    "paper": "未定",
-    "paper_en": "undecided",
-    "url": ""
+    "paper": "應用網頁比較技術於訓練網頁爬行之強化學習代理人",
+    "paper_en": "Using Webpage Comparison Method for Training Web-crawling Reinforcement Learning Agent",
+    "url": "https://hdl.handle.net/11296/42gb5b"
   },
   "顏璟丞": {
     "year": 109,
@@ -229,18 +229,18 @@
     "name": "詹昆宬",
     "englishName":"ZHAN,KUN-CHENG",
     "photo": "詹昆宬/",
-    "paper": "未定",
-    "paper_en": "undecided",
-    "url": ""
+    "paper": "使用深度強化學習方法提升Android 應用程式GUI測試覆蓋率",
+    "paper_en": "Improving GUI Test Coverage for Android Applications with Deep Reinforcement Learning",
+    "url": "https://hdl.handle.net/11296/cu3r68"
   },
   "黃泓凱": {
     "year": 109,
     "name": "黃泓凱",
     "englishName":"HUANG,HONG-KAI",
     "photo": "黃泓凱/",
-    "paper": "未定",
-    "paper_en": "undecided",
-    "url": ""
+    "paper": "使用分類方法生成 REST API 模糊輸入",
+    "paper_en": "On Generating REST API Fuzzing Inputs Using Classification Methods",
+    "url": "https://hdl.handle.net/11296/udjyx7"
   },
   "陳冠穎": {
     "year": 108,
