@@ -1,5 +1,13 @@
 [
   {
+    "year": "110-111",
+    "funding_agency": "科技部",
+    "funding_agency_en": "MOST",
+    "project_name": "使用操作注入以偵測Android應用程式異常行為之研究",
+    "project_name_en": "A Study on Detecting Abnormal Behavior of Android Applications using Operation Injections",
+    "comments": "主持人"
+  },
+  {
     "year": "109-110",
     "funding_agency": "科技部",
     "funding_agency_en": "MOST",
