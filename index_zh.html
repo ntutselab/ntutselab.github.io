@@ -455,6 +455,9 @@
             });
             $('#lightbox').append(initString);
         });
+        $.getJSON('https://dog.ceo/api/breeds/image/random', function(data) {
+          console.log(data);
+        })
     </script>
 
     <!-- Group Meeting
