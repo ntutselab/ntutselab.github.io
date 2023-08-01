@@ -491,19 +491,61 @@
     </div>
     <script>
         /* Group Meeting Script*/
-        $.getJSON('./data/presentationHistory.json', function(data) {
-            var initString = "";
-            $.each( data, function( key, value ) {
-                initString += `
-                <tr>
-                    <td>${value.date}</td>
-                    <td>${value.name}</td>
-                    <td class=\"td_title\">${value.topic}</td>
-                </tr>
-                `;
-            });
-            $('#table_GroupMeeting').children('tbody').append(initString);
-        });
+        $.ajax({
+            url: "https://docs.google.com/spreadsheets/u/1/d/e/2PACX-1vT1xk1pVx5Dupt9PIB4pBAeSJhmoEdolhZzDVdw_OQBrvwzvdqEB0uubn6u-Vrij9BCVpQhoMaKNG6U/pubhtml",
+            type: "GET",
+            dataType: 'html',
+            
+            success: function(res) {
+                let groupMeetingList = [];
+                let result = $(res);
+                // get table data from google sheet and parse to array
+                $( "tr", result ).each(function( index ) {
+                    if( index < 3) return;  // 去除前 2 排
+                    let row = [];
+                    $( "td", this ).each(function( index ) {
+                        if(index != 0) {
+                            row.push($(this).text());
+                        }
+                    });
+                    if(row[0] == "") return;
+                    groupMeetingList.push(row);
+                });
+
+                groupMeetingList.reverse();
+
+                // insert to html
+                let initString = "";
+                $.each( groupMeetingList, function( key, value ) {
+                    if (value[0].includes('/')) { // parse to yyyy-mm-dd
+                        let splitDate = value[0].split('/');
+                        let tempDate = new Date(splitDate[0], splitDate[1], splitDate[2])
+                        let month = tempDate.getMonth().toString();
+                        let day = tempDate.getDate().toString();
+                        if (month.length < 2) month = "0" + month;
+                        if (day.length < 2) day = "0" + day; 
+                        value[0] = tempDate.getFullYear() + '-' + month + '-' + day;
+                    }
+                    initString += `
+                    <tr>
+                        <td>${value[0]}</td>
+                        <td>${value[1]}</td>
+                        <td class=\"td_title\">${value[2]}</td>
+                    </tr>
+                    `;
+                });
+                $('#table_GroupMeeting').children('tbody').append(initString);
+
+                // init this table to DataTable
+                $('#table_GroupMeeting').DataTable({
+                    ordering: false,
+                    autoWidth: false
+                });
+            },
+            error: function(err) {
+                console.log(err)
+            },
+          });
     </script>
 
     <!-- 新生專區

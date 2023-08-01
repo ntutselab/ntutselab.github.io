@@ -166,10 +166,10 @@ function mainFunction() {
             });
 
             /* GroupMeeting DataTable */
-            $('#table_GroupMeeting').DataTable({
-                ordering: false,
-                autoWidth: false
-            });
+            // $('#table_GroupMeeting').DataTable({
+            //     ordering: false,
+            //     autoWidth: false
+            // });
 
             /* Images Lazy */
             $("img.team-img").lazyload({
