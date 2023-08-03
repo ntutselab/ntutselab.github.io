@@ -281,9 +281,9 @@
     <script>
         /* Research Plan Script */
         $.getJSON('./data/projects.json', function(data) {
-            var language = $('html')[0].lang;
-            var initString = "<div class=\"item\"><table class=\"table\"><thead><tr><th scope=\"col\">年度</th><th scope=\"col\">單位</th><th scope=\"col\">計畫名稱</th></tr></thead><tbody>";
-            var items_count = 1;
+            const language = $('html')[0].lang;
+            let initString = "<div class=\"item\"><table class=\"table\"><thead><tr><th scope=\"col\">年度</th><th scope=\"col\">單位</th><th scope=\"col\">計畫名稱</th></tr></thead><tbody>";
+            let items_count = 1;
             data.forEach(element => {
                 if(items_count > 10){
                     initString += "</tbody></table></div>";
@@ -294,8 +294,8 @@
                 initString += `
                 <tr>
                     <td>${element.year}</td>
-                    <td>${language == 'zh' ? element.funding_agency : element.funding_agency_en}</td>
-                    <td class=\"td_title\">${language == 'zh' ? element.project_name : element.project_name_en}</td>
+                    <td>${language === 'zh' ? element.funding_agency : element.funding_agency_en}</td>
+                    <td class=\"td_title\">${language === 'zh' ? element.project_name : element.project_name_en}</td>
                 </tr>
                 `;
                 items_count += 1;
@@ -363,17 +363,17 @@
     <script>
         /* Lab Member Script */
         $.getJSON('./data/members.json', function(data) {
-            var language = $('html')[0].lang;
-            var initString = "";
+            const language = $('html')[0].lang;
+            let initString = "";
             $.each( data, function( key, val ) {
                 let photo = val.photo + "-A.png";
-                if(val.photo == 'none'){
+                if(val.photo === 'none'){
                     photo = 'none_w.png';
                 }
 
-                let paper = `<a href=\"${val.url}\" target=\"blank\">${language == 'zh' ? val.paper : val.paper_en}</a>`;
-                if(val.paper == '未定'){
-                    paper = language == 'zh' ? '未定' : 'undecided';
+                let paper = `<a href=\"${val.url}\" target=\"blank\">${language === 'zh' ? val.paper : val.paper_en}</a>`;
+                if(val.paper === '未定'){
+                    paper = language === 'zh' ? '未定' : 'undecided';
                 }
 
                 initString += `
@@ -382,8 +382,8 @@
                         <div class=\"hover-bg\">
                             <img data-original=\"image/mugshot/${photo}\" alt=\"...\" class=\"img-circle team-img ${val.year}\">
                             <div class=\"caption\">
-                                <h3>${language == 'zh' ? val.name : val.englishName}</h3>
-                                <p>${val.year} ${language == 'zh' ? '級' : 'Year'}</p>
+                                <h3>${language === 'zh' ? val.name : val.englishName}</h3>
+                                <p>${val.year} ${language === 'zh' ? '級' : 'Year'}</p>
                                 <p class=\"p_paper\">論文 : </p>
                                 <p class=\"p_paper\">${paper}</p>
                             </div>
@@ -426,16 +426,16 @@
 
             <div id="lightbox" class="row">
 
-                <!-- Lab Equirement -->
+                <!-- Lab Equipment -->
 
             </div>
         </div>
     </div>
     <script>
-        /* Lab Equirement Script */
+        /* Lab Equipment Script */
         $.getJSON('./data/equipments.json', function(data) {
-            var language = $('html')[0].lang;
-            var initString = "";
+            const language = $('html')[0].lang;
+            let initString = "";
             $.each( data, function( key, value ) {
                 initString += `
                 <div class=\"col-sm-6 col-md-3 col-lg-3 ${value.type} isotope-item \">
@@ -504,11 +504,11 @@
                     if( index < 3) return;  // 去除前 2 排
                     let row = [];
                     $( "td", this ).each(function( index ) {
-                        if(index != 0) {
+                        if(index !== 0) {
                             row.push($(this).text());
                         }
                     });
-                    if(row[0] == "") return;
+                    if(row[0] === "") return;
                     groupMeetingList.push(row);
                 });
 
@@ -710,7 +710,7 @@
         </div>
     </div>
 
-    <!-- Lazyload -->
+    <!-- Lazy load -->
     <script src="js/jquery.lazyload.js"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
     <script type="text/javascript" src="js/bootstrap.js"></script>
@@ -720,15 +720,15 @@
 
     <script src="js/owl.carousel.js"></script>
 
-    <!-- Javascripts
+    <!-- Javascript
     ================================================== -->
     <script type="text/javascript" src="js/staticMain.js"></script>
 
     <script>
         $('.bs-example-modal-lg').on('show.bs.modal', function (event) {
-            var button = $(event.relatedTarget);
-            var recipient = button.data('whatever');
-            var modal = $(this);
+            const button = $(event.relatedTarget);
+            const recipient = button.data('whatever');
+            const modal = $(this);
             modal.find('.embed-responsive-item').attr("src",recipient);
         });
     </script>

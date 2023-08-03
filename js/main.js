@@ -14,9 +14,9 @@ function main() {
   	=============================================== */
 
   	$('a.page-scroll').click(function() {
-        if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
-          var target = $(this.hash);
-          target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
+        if (location.pathname.replace(/^\//,'') === this.pathname.replace(/^\//,'') && location.hostname === this.hostname) {
+            let target = $(this.hash);
+            target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
           if (target.length) {
             $('html,body').animate({
               scrollTop: target.offset().top - 40
@@ -30,7 +30,7 @@ function main() {
     Show Menu on Book
     ======================================*/
     $(window).bind('scroll', function() {
-        var navHeight = $(window).height() - 100;
+        const navHeight = $(window).height() - 100;
         if ($(window).scrollTop() > navHeight) {
             $('.navbar-default').addClass('on');
         } else {
@@ -105,7 +105,7 @@ function main() {
     Portfolio Isotope Filter
     ======================================*/
     $(window).load(function() {
-        var $container = $('#lightbox');
+        const $container = $('#lightbox');
         $container.isotope({
             filter: '*',
             animationOptions: {
@@ -117,7 +117,7 @@ function main() {
         $('.cat a').click(function() {
             $('.cat .active').removeClass('active');
             $(this).addClass('active');
-            var selector = $(this).attr('data-filter');
+            const selector = $(this).attr('data-filter');
             $container.isotope({
                 filter: selector,
                 animationOptions: {
@@ -145,7 +145,7 @@ main();
 按鈕觸發翻譯
 ======================================*/
 
-var option;
+let option;
 function triggerTranslate(){
     if(option == null){
         option = $('.skiptranslate').contents().find(".text:eq(1)");
@@ -158,7 +158,7 @@ function triggerTranslate(){
 實驗室成員切換
 ======================================*/
 
-var $container_team = $('#lightbox_team');
+const $container_team = $('#lightbox_team');
 $container_team.isotope({
     filter: '.111',
     animationOptions: {
@@ -171,7 +171,7 @@ $container_team.isotope({
 $("img.111").trigger("lazylazy");
 
 $('#teamYear').change(function(){
-    var year = $(this).val();
+    const year = $(this).val();
     console.log('year -> ' + year);
 
     $container_team.isotope({

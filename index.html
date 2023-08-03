@@ -271,8 +271,8 @@
     <script>
         /* Research Plan Script */
         $.getJSON('./data/projects.json', function(data) {
-            var initString = "<div class=\"item\"><table class=\"table\"><thead><tr><th scope=\"col\">Year</th><th scope=\"col\">Funding Agency</th><th scope=\"col\">Project name</th></tr></thead><tbody>";
-            var items_count = 1;
+            let initString = "<div class=\"item\"><table class=\"table\"><thead><tr><th scope=\"col\">Year</th><th scope=\"col\">Funding Agency</th><th scope=\"col\">Project name</th></tr></thead><tbody>";
+            let items_count = 1;
             data.forEach(element => {
                 if(items_count > 10){
                     initString += "</tbody></table></div>";
@@ -351,15 +351,15 @@
     <script>
         /* Lab Member Script */
         $.getJSON('./data/members.json', function(data) {
-            var initString = "";
+            let initString = "";
             $.each( data, function( key, val ) {
                 let photo = val.photo + "-A.png";
-                if(val.photo == 'none'){
+                if(val.photo === 'none'){
                     photo = 'none_w.png';
                 }
 
                 let paper = `<a href=\"${val.url}\" target=\"blank\">${val.paper_en}</a>`;
-                if(val.paper_en == 'undecided'){
+                if(val.paper_en === 'undecided'){
                     paper ='undecided';
                 }
 
@@ -412,15 +412,15 @@
             </div>
             <div id="lightbox" class="row">
 
-                <!-- Lab Equirement -->
+                <!-- Lab Equipment -->
 
             </div>
         </div>
     </div>
     <script>
-        /* Lab Equirement Script */
+        /* Lab Equipment Script */
         $.getJSON('./data/equipments.json', function(data) {
-            var initString = "";
+            let initString = "";
             $.each( data, function( key, value ) {
                 initString += `
                 <div class=\"col-sm-6 col-md-3 col-lg-3 ${value.type} isotope-item \">
@@ -496,9 +496,9 @@
                     if( index < 3) return;  // 去除前 2 排
                     let row = [];
                     $( "td", this ).each(function( index ) {
-                        if(index == 0) return; // 去除第 1 欄(時間戳)
-                        if(index == 2) { // 報告人英文名稱轉換
-                            if (member[$(this).text()] == undefined) {
+                        if(index === 0) return; // 去除第 1 欄(時間戳)
+                        if(index === 2) { // 報告人英文名稱轉換
+                            if (member[$(this).text()] === undefined) {
                                 row.push($(this).text());
                             } else {
                                 row.push(member[$(this).text()])
@@ -507,7 +507,7 @@
                             row.push($(this).text());
                         }
                     });
-                    if(row[0] == "") return;
+                    if(row[0] === "") return;
                     groupMeetingList.push(row);
                 });
 
@@ -711,7 +711,7 @@
         </div>
     </div>
 
-    <!-- Lazyload -->
+    <!-- Lazy load -->
     <script src="js/jquery.lazyload.js"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
     <script type="text/javascript" src="js/bootstrap.js"></script>
@@ -721,7 +721,7 @@
 
     <script src="js/owl.carousel.js"></script>
 
-    <!-- Javascripts
+    <!-- Javascript
     ================================================== -->
     <script type="text/javascript" src="js/staticMain.js"></script>
 
