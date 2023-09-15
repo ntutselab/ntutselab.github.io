@@ -17,7 +17,7 @@ function switchLabMember() {
     // Set lightbox_team isotope
     var $container_team = $('#lightbox_team');
     $container_team.isotope({
-        filter: '.111',
+        filter: '.112',
         animationOptions: {
             duration: 750,
             easing: 'linear',
@@ -25,7 +25,7 @@ function switchLabMember() {
         }
     });
 
-    $("img.111").trigger("lazylazy");
+    $("img.112").trigger("lazylazy");
 
     // When Change team year
     $('#teamYear').change(function(){
