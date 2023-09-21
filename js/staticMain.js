@@ -16,6 +16,7 @@ function triggerTranslate(){
 function switchLabMember() {
     // Set lightbox_team isotope
     var $container_team = $('#lightbox_team');
+    const observer = lozad('.team-img'); // lazy loads elements with default selector as '.team-img'
     $container_team.isotope({
         filter: '.112',
         animationOptions: {
@@ -25,7 +26,9 @@ function switchLabMember() {
         }
     });
 
-    $("img.112").trigger("lazylazy");
+    $('img.112').each(function() {
+        observer.triggerLoad(this);
+    });
 
     // When Change team year
     $('#teamYear').change(function(){
@@ -41,8 +44,10 @@ function switchLabMember() {
             }
         });
 
-        $("img" + year).trigger("lazylazy");
-
+        const selector = year === '*' ? '.team-img' : 'img' + year;
+        $(selector).each(function() {
+            observer.triggerLoad(this);
+        });
         return false;
     });
 }
@@ -170,12 +175,6 @@ function mainFunction() {
             //     ordering: false,
             //     autoWidth: false
             // });
-
-            /* Images Lazy */
-            $("img.team-img").lazyload({
-                effect: "fadeIn",
-                event: "lazylazy"
-            });
         });
     
         /*====================================
