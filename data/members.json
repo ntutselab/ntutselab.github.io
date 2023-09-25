@@ -304,7 +304,7 @@
     "name": "王方顯",
     "englishName":"WANG,FANG-XIAN",
     "photoLink": "https://academic.ntut.edu.tw/media/klnp15pn/a.png",
-    "photoLink_small": "",
+    "photoLink_small": "https://academic.ntut.edu.tw/media/tprivdqt/a-small.png",
     "paper": "用於平行偵測Android應用程式異常之操作注入框架的分散式架構設計",
     "paper_en": "A Distributed Architecture Design for the Operation-Injection Framework to Detect Android Application Anomalies in Parallel",
     "url": "https://hdl.handle.net/11296/fk339f"
@@ -314,7 +314,7 @@
     "name": "吳冠穎",
     "englishName":"WU,GUAN-YING",
     "photoLink": "https://academic.ntut.edu.tw/media/wdckgvef/a.png",
-    "photoLink_small": "",
+    "photoLink_small": "https://academic.ntut.edu.tw/media/lhwdev4v/a-small.png",
     "paper": "改善 API 序列生成方法以提高 RESTler 之 REST API 測試效率的研究",
     "paper_en": "A Study on Improving API Sequence Generation Method to Increase Test Efficiency of REST API for RESTler",
     "url": "https://hdl.handle.net/11296/7e3p78"
@@ -324,7 +324,7 @@
     "name": "卓旭嘉",
     "englishName":"ZHUO,XU-JIA",
     "photoLink": "https://academic.ntut.edu.tw/media/htgp5bst/a.png",
-    "photoLink_small": "",
+    "photoLink_small": "https://academic.ntut.edu.tw/media/jn4br25b/a-small.png",
     "paper": "在卷積網路中使用視覺化工具協助人聲分界點之偵測",
     "paper_en": "Vocal Detection with Visualization Tools in Convolution Neural Networks",
     "url": "https://hdl.handle.net/11296/jky87z"
@@ -334,7 +334,7 @@
     "name": "林敬勛",
     "englishName":"LIN,JING-XUN",
     "photoLink": "https://academic.ntut.edu.tw/media/1t3izyfd/a.png",
-    "photoLink_small": "",
+    "photoLink_small": "https://academic.ntut.edu.tw/media/jn4br25b/a-small.png",
     "paper": "利用GPT-3產生表單內容應用於自動化網頁填寫代理人",
     "paper_en": "An Automated Webpage Form-filling Agent using GPT-3 Generated Content",
     "url": "https://hdl.handle.net/11296/4x3w65"
@@ -344,7 +344,7 @@
     "name": "陳哲葦",
     "englishName":"CHEN,ZHE-WEI",
     "photoLink": "https://academic.ntut.edu.tw/media/1pfbk4bo/a.png",
-    "photoLink_small": "",
+    "photoLink_small": "https://academic.ntut.edu.tw/media/dpjlyjui/a-small.png",
     "paper": "一個好奇心驅動之 Android 應用程式爬行方法",
     "paper_en": " Curiosity-Driven Crawling Method for Android Applications",
     "url": "https://hdl.handle.net/11296/5468j2"
@@ -354,7 +354,7 @@
     "name": "賴慈馮",
     "englishName":"LAI,CI-FENG",
     "photoLink": "https://academic.ntut.edu.tw/media/cyyp0sks/a.png",
-    "photoLink_small": "",
+    "photoLink_small": "https://academic.ntut.edu.tw/media/15ldrhjz/a-small.png",
     "paper": "應用網頁比較技術於訓練網頁爬行之強化學習代理人",
     "paper_en": "Using Webpage Comparison Method for Training Web-crawling Reinforcement Learning Agent",
     "url": "https://hdl.handle.net/11296/42gb5b"
@@ -364,7 +364,7 @@
     "name": "顏璟丞",
     "englishName":"YAN,JING-CHENG",
     "photoLink": "https://academic.ntut.edu.tw/media/mibiqwu1/a.png",
-    "photoLink_small": "",
+    "photoLink_small": "https://academic.ntut.edu.tw/media/yvvhajck/a-small.png",
     "paper": "使用交易代理人執行動態資產配置之研究",
     "paper_en": "A Study of Using Trading Agent for Dynamic Asset Allocation",
     "url": "https://hdl.handle.net/11296/x2ut7a"
@@ -374,7 +374,7 @@
     "name": "詹昆宬",
     "englishName":"ZHAN,KUN-CHENG",
     "photoLink": "https://academic.ntut.edu.tw/media/i4qdpslc/a.png",
-    "photoLink_small": "",
+    "photoLink_small": "https://academic.ntut.edu.tw/media/cjijrl4g/a-small.png",
     "paper": "使用深度強化學習方法提升Android 應用程式GUI測試覆蓋率",
     "paper_en": "Improving GUI Test Coverage for Android Applications with Deep Reinforcement Learning",
     "url": "https://hdl.handle.net/11296/cu3r68"
@@ -384,7 +384,7 @@
     "name": "黃泓凱",
     "englishName":"HUANG,HONG-KAI",
     "photoLink": "https://academic.ntut.edu.tw/media/d00dl5ph/a.png",
-    "photoLink_small": "",
+    "photoLink_small": "https://academic.ntut.edu.tw/media/avgjrq1w/a-small.png",
     "paper": "使用分類方法生成 REST API 模糊輸入",
     "paper_en": "On Generating REST API Fuzzing Inputs Using Classification Methods",
     "url": "https://hdl.handle.net/11296/udjyx7"
@@ -394,7 +394,7 @@
     "name": "陳冠穎",
     "englishName":"CHEN,GUAN-YING",
     "photoLink": "https://academic.ntut.edu.tw/media/4uklt5ng/a.png",
-    "photoLink_small": "",
+    "photoLink_small": "https://academic.ntut.edu.tw/media/ptznyg3o/a-small.png",
     "paper": "針對網頁應用程式輸入之強化學習模型使用網頁快照與字嵌入擷取特徵的比較研究",
     "paper_en": "A Comparative Study of Reinforcement Learning Models for Web Application Inputs using Webpage Screenshot and Word Embedding Extracted Features",
     "url": "https://hdl.handle.net/11296/7e279f"
@@ -404,7 +404,7 @@
     "name": "蕭文全",
     "englishName":"XIAO,WEN-QUAN",
     "photoLink": "https://academic.ntut.edu.tw/media/2qffgqve/a.png",
-    "photoLink_small": "",
+    "photoLink_small": "https://academic.ntut.edu.tw/media/2zzknef5/a-small.png",
     "paper": "利用回饋指引方法提升爬行Android應用程式的覆蓋率",
     "paper_en": "Using a Feedback-Directed Approach to Increase Code Coverage for Crawling Android Applications",
     "url": "https://hdl.handle.net/11296/esw2kx"
@@ -414,7 +414,7 @@
     "name": "古兆瑋",
     "englishName":"GU,ZHAO-WEI",
     "photoLink": "https://academic.ntut.edu.tw/media/zedlsglp/a.png",
-    "photoLink_small": "",
+    "photoLink_small": "https://academic.ntut.edu.tw/media/m50bxmo5/a-small.png",
     "paper": "近端策略最佳化演算法探索率之動態調整以減緩獎勵值快速降低問題",
     "paper_en": "Dynamic Adjustment of Exploration Rate for Proximal Policy Optimization Algorithm to Relief Fast Reward Decline Problem",
     "url": "https://hdl.handle.net/11296/se7x49"
@@ -424,7 +424,7 @@
     "name": "劉孝忠",
     "englishName":"LIU,XIAO-ZHONG",
     "photoLink": "https://academic.ntut.edu.tw/media/22upjdne/a.png",
-    "photoLink_small": "",
+    "photoLink_small": "https://academic.ntut.edu.tw/media/mfgjpvu3/a-small.png",
     "paper": "使用多分類器預測沒有人工標籤資料集的正確率",
     "paper_en": "Predicting classification accuracy of unlabeled datasets using multi-classifiers",
     "url": "https://hdl.handle.net/11296/s3c9qc"
@@ -434,7 +434,7 @@
     "name": "黃俊凱",
     "englishName":"HUANG,JUN-KAI",
     "photoLink": "https://academic.ntut.edu.tw/media/1hbkzazn/a.png",
-    "photoLink_small": "",
+    "photoLink_small": "https://academic.ntut.edu.tw/media/wjalvcab/a-small.png",
     "paper": "訓練強化學習代理人以支援不同網頁應用程式的爬行",
     "paper_en": "Training a Reinforcement Learning Agent to Support Crawling of Different Web Applications",
     "url": "https://hdl.handle.net/11296/cczw97"
@@ -444,7 +444,7 @@
     "name": "許景程",
     "englishName":"XU,JING-CHENG",
     "photoLink": "https://academic.ntut.edu.tw/media/lkwhtc4s/a.png",
-    "photoLink_small": "",
+    "photoLink_small": "https://academic.ntut.edu.tw/media/hajp2doq/a-small.png",
     "paper": "一個使用操作注入與視覺化的方法以偵測Android應用程式異常",
     "paper_en": "An Approach for Detecting Anomaly of Android Applications with Operation Injection and Visualization",
     "url": "https://hdl.handle.net/11296/ee46c7"
@@ -454,7 +454,7 @@
     "name": "唐振嚴",
     "englishName":"TANG,ZHEN-YAN",
     "photoLink": "https://academic.ntut.edu.tw/media/evupalmm/a.png",
-    "photoLink_small": "",
+    "photoLink_small": "https://academic.ntut.edu.tw/media/p2pd5eoo/a-small.png",
     "paper": "在策略為基礎的強化學習演算法中實現動作遮罩之方法與效果",
     "paper_en": "Implementation of Action Masks for Policy-based Reinforcement Learning Algorithms",
     "url": "https://hdl.handle.net/11296/8t3275"
@@ -464,7 +464,7 @@
     "name": "陳郁欣",
     "englishName":"CHEN,YU-XIN",
     "photoLink": "https://academic.ntut.edu.tw/media/istdpy5r/a.png",
-    "photoLink_small": "",
+    "photoLink_small": "https://academic.ntut.edu.tw/media/xf1h4qga/a-small.png",
     "paper": "不同層級注入操作對偵測Android應用程式異常效果之比較",
     "paper_en": "A Comparison of Anomaly-Detection Effectiveness with Different Operation-Injection Levels for Android Applications",
     "url": "https://hdl.handle.net/11296/r9q2ue"
@@ -474,7 +474,7 @@
     "name": "林佳緯",
     "englishName":"LIN,JIA-WEI",
     "photoLink": "https://academic.ntut.edu.tw/media/l2zptigz/a.png",
-    "photoLink_small": "",
+    "photoLink_small": "https://academic.ntut.edu.tw/media/vtplixja/a-small.png",
     "paper": "使用卷積神經網路相關技巧邁向更高人聲辨識正確率之研究",
     "paper_en": "Toward Higher Vocal Detection Accuracy Based on Convolutional Neural Networks",
     "url": "https://hdl.handle.net/11296/ev45d5"
@@ -484,7 +484,7 @@
     "name": "鄭鴻仁",
     "englishName":"ZHENG,HONG-REN",
     "photoLink": "https://academic.ntut.edu.tw/media/rllistl1/a.png",
-    "photoLink_small": "",
+    "photoLink_small": "https://academic.ntut.edu.tw/media/e5iksjse/a-small.png",
     "paper": "應用控制相依圖於Java程式之Feature Envy偵測",
     "paper_en": "Applying Control Dependence Graph in Feature Envy Detection for Java Programs",
     "url": "https://hdl.handle.net/11296/c9pv67"
@@ -494,7 +494,7 @@
     "name": "林冠璋",
     "englishName":"LIN,GUAN-ZHANG",
     "photoLink": "https://academic.ntut.edu.tw/media/aybd2apc/a.png",
-    "photoLink_small": "",
+    "photoLink_small": "https://academic.ntut.edu.tw/media/de1fhnoq/a-small.png",
     "paper": "網頁爬行代理人之OpenAI強化學習訓練環境",
     "paper_en": "An OpenAI Reinforcement Learning Environment for Training Web Crawling Agents",
     "url": "https://hdl.handle.net/11296/rae85e"
@@ -504,7 +504,7 @@
     "name": "陳巧宜",
     "englishName":"CHEN,QIAO-YI",
     "photoLink": "https://academic.ntut.edu.tw/media/ainb0nci/a.png",
-    "photoLink_small": "",
+    "photoLink_small": "https://academic.ntut.edu.tw/media/jhkf5l3a/a-small.png",
     "paper": "Android爬蟲ACE之系統架構重構與狀態相等策略強化",
     "paper_en": "Refactoring System Architecture and Enhancing State Equivalent Strategy for Android Crawler ACE",
     "url": "https://hdl.handle.net/11296/kj6ze9"
@@ -514,7 +514,7 @@
     "name": "洪子軒",
     "englishName":"HONG,ZI-XUAN",
     "photoLink": "https://academic.ntut.edu.tw/media/cmzpo3x0/a.png",
-    "photoLink_small": "",
+    "photoLink_small": "https://academic.ntut.edu.tw/media/4pwdcdvb/a-small.png",
     "paper": "一個偵測Android應用程式異常之操作注入框架",
     "paper_en": "An Operation-Injection Framework for Detecting Android Application Anomalies",
     "url": "https://hdl.handle.net/11296/w4ab69"
@@ -524,7 +524,7 @@
     "name": "周士禾",
     "englishName":"ZHOU,SHI-HE",
     "photoLink": "https://academic.ntut.edu.tw/media/wdfiot2m/a.png",
-    "photoLink_small": "",
+    "photoLink_small": "https://academic.ntut.edu.tw/media/a3hjpajb/a-small.png",
     "paper": "使用代理人自動選擇輸入資料以提升網頁爬蟲之程式碼覆蓋率",
     "paper_en": "Using Agents to Automatically Choose Input Data for Web Crawler to Increase Code Coverage",
     "url": "https://hdl.handle.net/11296/xxd4m7"
@@ -534,7 +534,7 @@
     "name": "邱楹傑",
     "englishName":"QIU,YING-JIE",
     "photoLink": "https://academic.ntut.edu.tw/media/ypccvojq/a.png",
-    "photoLink_small": "",
+    "photoLink_small": "https://academic.ntut.edu.tw/media/kg5hvivs/a-small.png",
     "paper": "改進動作設計以提升代理人爬行網頁應用程式之效率",
     "paper_en": "On the Action Design for Improving the Efficiency of Crawling Web Applications with Agents",
     "url": "https://hdl.handle.net/11296/gc7zms"
@@ -544,7 +544,7 @@
     "name": "林照晟",
     "englishName":"LIN,ZHAO-CHENG",
     "photoLink": "https://academic.ntut.edu.tw/media/d0sjmgsx/a.png",
-    "photoLink_small": "",
+    "photoLink_small": "https://academic.ntut.edu.tw/media/pgulkrtd/a-small.png",
     "paper": "一個基於同步爬蟲之網頁不穩定元素偵測方法",
     "paper_en": "A Web Variable Element Detection Method Based on Synchronous Crawlers",
     "url": "https://hdl.handle.net/11296/35q5pq"
@@ -554,7 +554,7 @@
     "name": "何威杭",
     "englishName":"HE,WEI-HANG",
     "photoLink": "https://academic.ntut.edu.tw/media/ztkbutbj/a.png",
-    "photoLink_small": "",
+    "photoLink_small": "https://academic.ntut.edu.tw/media/424dh11d/a-small.png",
     "paper": "基於DQN演算法訓練代理人以增加網頁應用程式之覆蓋率",
     "paper_en": "Training a Test Agent to Increase Code Coverage Based on DQN for Web Applications",
     "url": "https://hdl.handle.net/11296/kjwtsy"
@@ -564,7 +564,7 @@
     "name": "洪紹晏",
     "englishName":"HONG,SHAO-YAN",
     "photoLink": "https://academic.ntut.edu.tw/media/pq3b0ngj/a.png",
-    "photoLink_small": "",
+    "photoLink_small": "https://academic.ntut.edu.tw/media/mvxofzvx/a-small.png",
     "paper": "以DQN演算法訓練ETF之交易代理人",
     "paper_en": "Training an ETF Trading Agent with Deep Q-Learning",
     "url": "https://hdl.handle.net/11296/a3jewt"
@@ -574,7 +574,7 @@
     "name": "陳日揚",
     "englishName":"CHEN,RI-YANG",
     "photoLink": "https://academic.ntut.edu.tw/media/ityp1t1a/a.png",
-    "photoLink_small": "",
+    "photoLink_small": "https://academic.ntut.edu.tw/media/nzxfeowz/a-small.png",
     "paper": "基於Soot資料流分析之Java程式碼Feature Envy偵測方法",
     "paper_en": "A Java Program Feature Envy Detection Method Based on Dataflow Analysis with Soot",
     "url": "https://hdl.handle.net/11296/kk4s85"
@@ -584,7 +584,7 @@
     "name": "郭建陞",
     "englishName":"GUO,JIAN-SHENG",
     "photoLink": "https://academic.ntut.edu.tw/media/nqmjkuqz/a.png",
-    "photoLink_small": "",
+    "photoLink_small": "https://academic.ntut.edu.tw/media/bosd02ta/a-small.png",
     "paper": "以深度學習方式預測MIDI音符之力度",
     "paper_en": "Velocity Prediction for MIDI Notes with Deep Learning",
     "url": "https://hdl.handle.net/11296/km77w9"
@@ -594,7 +594,7 @@
     "name": "李修豪",
     "englishName":"LI,XIU-HAO",
     "photoLink": "https://academic.ntut.edu.tw/media/jtem2m42/a.png",
-    "photoLink_small": "",
+    "photoLink_small": "https://academic.ntut.edu.tw/media/ykuohwgf/a-small.png",
     "paper": "延伸ACE以爬行使用危險權限之Android應用程式",
     "paper_en": "Extending ACE for Crawling Android Apps with Dangerous Permissions",
     "url": "https://hdl.handle.net/11296/sdpuqv"
@@ -604,7 +604,7 @@
     "name": "林亮勳",
     "englishName":"LIN,LIANG-XUN",
     "photoLink": "https://academic.ntut.edu.tw/media/d3anmubl/a.png",
-    "photoLink_small": "",
+    "photoLink_small": "https://academic.ntut.edu.tw/media/c2wnopgr/a-small.png",
     "paper": "使用額外處理步驟以提升卷積神經網路之人聲辨識準確率",
     "paper_en": "Improving Vocal Detection Accuracy of Convolutional Neural Networks with Additional Processing Steps",
     "url": "https://hdl.handle.net/11296/r4p69w"
@@ -614,7 +614,7 @@
     "name": "劉宸宗",
     "englishName":"LIU,CHEN-ZONG",
     "photoLink": "none",
-    "photoLink_small": "",
+    "photoLink_small": "none",
     "paper": "偵測Android應用程式不合宜之權限處理",
     "paper_en": "Detecting Inappropriate Permission Handling of Android Apps",
     "url": "https://hdl.handle.net/11296/3xgk47"
@@ -624,7 +624,7 @@
     "name": "蔡博凱",
     "englishName":"CAI,BO-KAI",
     "photoLink": "none",
-    "photoLink_small": "",
+    "photoLink_small": "none",
     "paper": "協同作業系統之效能測試與應用程式開發",
     "paper_en": "Performance Testing and Application Development for a Collaborative Operating System",
     "url": "https://hdl.handle.net/11296/3fm8un"
@@ -634,7 +634,7 @@
     "name": "林政憲",
     "englishName":"LIN,ZHENG-XIAN",
     "photoLink": "https://academic.ntut.edu.tw/media/iqtgj4hq/a.png",
-    "photoLink_small": "",
+    "photoLink_small": "https://academic.ntut.edu.tw/media/pnkdfgm3/a-small.png",
     "paper": "基於驗證爬行路徑之跨瀏覽器相容性測試方法",
     "paper_en": "A Cross-Browser Compatibility Testing Approach Based on Crawling Sequence Verification",
     "url": "https://hdl.handle.net/11296/63bcm2"
@@ -644,7 +644,7 @@
     "name": "林采嬑",
     "englishName":"LIN,CAI-YI",
     "photoLink": "https://academic.ntut.edu.tw/media/xesilsqh/a.png",
-    "photoLink_small": "",
+    "photoLink_small": "https://academic.ntut.edu.tw/media/gyufknr1/a-small.png",
     "paper": "延伸ACE爬蟲以處理具多重根狀態之應用程式",
     "paper_en": "Extending ACE Crawler for Handling Applications with Multiple Roots",
     "url": "https://hdl.handle.net/11296/8xnz47"
@@ -654,7 +654,7 @@
     "name": "蔡名億",
     "englishName":"CAI,MING-YI",
     "photoLink": "https://academic.ntut.edu.tw/media/lj2njc0o/a.png",
-    "photoLink_small": "",
+    "photoLink_small": "https://academic.ntut.edu.tw/media/ovnduago/a-small.png",
     "paper": "IoT裝置相容性測試工具設計與實作",
     "paper_en": "Design and Implementation of an IoT Device Compatibility Testing Tool",
     "url": "https://hdl.handle.net/11296/2cu2zc"
@@ -664,7 +664,7 @@
     "name": "陳肇陽",
     "englishName":"CHEN,ZHAO-YANG",
     "photoLink": "none",
-    "photoLink_small": "",
+    "photoLink_small": "none",
     "paper": "延伸ACE爬蟲器以支援個別選擇覆蓋",
     "paper_en": "Extending ACE Crawler for Supporting Equivalent State Strategy with Each Choice Coverage",
     "url": "https://hdl.handle.net/11296/w67ybu"
@@ -674,7 +674,7 @@
     "name": "劉人傑",
     "englishName":"LIU,REN-JIE",
     "photoLink": "https://academic.ntut.edu.tw/media/cxhmxwek/a.png",
-    "photoLink_small": "",
+    "photoLink_small": "https://academic.ntut.edu.tw/media/gsibuqp4/a-small.png",
     "paper": "基於深度學習之人聲辨識探討資料集組成與測試準確率之關聯性",
     "paper_en": "Relevance Between Dataset Composition and Test Accuracy Based on Deep Learning Algorithm in Voice Detection",
     "url": "https://hdl.handle.net/11296/ru5fp3"
@@ -684,7 +684,7 @@
     "name": "劉至峻",
     "englishName":"LIU,ZHI-JUN",
     "photoLink": "https://academic.ntut.edu.tw/media/tn5hlhvd/a.png",
-    "photoLink_small": "",
+    "photoLink_small": "https://academic.ntut.edu.tw/media/zf0cuh0l/a-small.png",
     "paper": "使用多模型合併之深度學習應用於音樂片段人聲辨識",
     "paper_en": "Deep Learning Algorithm Using Multi-model Combination Applied to Singing Voice Detection",
     "url": "https://hdl.handle.net/11296/4f4um8"
@@ -694,7 +694,7 @@
     "name": "張偉哲",
     "englishName":"ZHANG,WEI-ZHE",
     "photoLink": "https://academic.ntut.edu.tw/media/fv3izd53/a.png",
-    "photoLink_small": "",
+    "photoLink_small": "https://academic.ntut.edu.tw/media/hjefpi3t/a-small.png",
     "paper": "物聯網閘道器與裝置之自動化測試工具",
     "paper_en": "A Testing Tool for IoT Gateway and Devices",
     "url": "https://hdl.handle.net/11296/wpmxb2"
@@ -704,7 +704,7 @@
     "name": "陳柏峻",
     "englishName":"CHEN,BO-JUN",
     "photoLink": "https://academic.ntut.edu.tw/media/ddbdwdty/a.png",
-    "photoLink_small": "",
+    "photoLink_small": "https://academic.ntut.edu.tw/media/tyiga0ns/a-small.png",
     "paper": "擴充FEED以偵測Feature Envy程式壞味道",
     "paper_en": "Extending FEED for Detecting Feature Envy Smells",
     "url": "https://hdl.handle.net/11296/5ep6xq"
@@ -714,7 +714,7 @@
     "name": "秦永昭",
     "englishName":"QIN,YONG-ZHAO",
     "photoLink": "https://academic.ntut.edu.tw/media/2uvnrrxo/a.png",
-    "photoLink_small": "",
+    "photoLink_small": "https://academic.ntut.edu.tw/media/yn4lcfpr/a-small.png",
     "paper": "雲端測試平台之測試覆蓋率工具設計與實作",
     "paper_en": "The Design and Implementation of a Test Coverage Tool for Cloud Testing Platform",
     "url": "http://hdl.handle.net/11296/yygy53"
@@ -724,7 +724,7 @@
     "name": "陳又樫",
     "englishName":"CHEN,YOU-JIAN",
     "photoLink": "https://academic.ntut.edu.tw/media/jn2jvev0/a.png",
-    "photoLink_small": "",
+    "photoLink_small": "https://academic.ntut.edu.tw/media/it2cqz3f/a-small.png",
     "paper": "雲端測試平台之Android應用程式崩潰測試工具",
     "paper_en": "An Android App Crash Testing Tool for Cloud Testing Platform",
     "url": "http://hdl.handle.net/11296/9h8rmw"
@@ -734,7 +734,7 @@
     "name": "廖振諺",
     "englishName":"LIAO,ZHEN-YAN",
     "photoLink": "https://academic.ntut.edu.tw/media/y3oppodo/a.png",
-    "photoLink_small": "",
+    "photoLink_small": "https://academic.ntut.edu.tw/media/ygxajplm/a-small.png",
     "paper": "偵測重複KDT測試腳本之方法",
     "paper_en": "An Approach for Detecting Duplicated KDT Scripts",
     "url": "http://hdl.handle.net/11296/jx8c9h"
@@ -744,7 +744,7 @@
     "name": "李宗哲",
     "englishName":"LI,ZONG-ZHE",
     "photoLink": "https://academic.ntut.edu.tw/media/py4kcubq/a.png",
-    "photoLink_small": "",
+    "photoLink_small": "https://academic.ntut.edu.tw/media/f51bcptj/a-small.png",
     "paper": "以爬蟲器產生測試案例之Android程式異常行為偵測方法",
     "paper_en": "Detecting Android Application Anomalies Based on Test Case Generation from a Crawler",
     "url": "http://hdl.handle.net/11296/7uka4b"
@@ -754,7 +754,7 @@
     "name": "孫季加",
     "englishName":"SUN,JI-JIA",
     "photoLink": "none",
-    "photoLink_small": "",
+    "photoLink_small": "none",
     "paper": "一個支援程式碼覆蓋率量測之漸進與互動式網頁爬蟲器",
     "paper_en": "An Incremental and Interactive Web Crawler Supporting Code Coverage Measurement",
     "url": "http://hdl.handle.net/11296/ec8zz7"
@@ -764,7 +764,7 @@
     "name": "何書杭",
     "englishName":"HE,SHU-HANG",
     "photoLink": "none",
-    "photoLink_small": "",
+    "photoLink_small": "none",
     "paper": "一個支援Android爬蟲演算法比較之框架",
     "paper_en": "A Framework Supporting the Comparison of Android Crawling Algorithms",
     "url": "http://hdl.handle.net/11296/3qj463"
@@ -774,7 +774,7 @@
     "name": "李柏鋐",
     "englishName":"LI,BO-HONG",
     "photoLink": "none",
-    "photoLink_small": "",
+    "photoLink_small": "none",
     "paper": "以資料流分析為基礎之Feature Envy偵測方法",
     "paper_en": "A Feature Envy Detection Method Based on Data Flow Analysis",
     "url": "http://hdl.handle.net/11296/e2h88q"
@@ -784,7 +784,7 @@
     "name": "黃泓鳴",
     "englishName":"HUANG,HONG-MING",
     "photoLink": "none",
-    "photoLink_small": "",
+    "photoLink_small": "none",
     "paper": "基於深度學習之音樂片段人聲辨識",
     "paper_en": "Singing Voice Detection Based on Deep Learning Algorithm",
     "url": "http://hdl.handle.net/11296/z59ga8"
@@ -794,7 +794,7 @@
     "name": "黃靖文",
     "englishName":"HUANG,JING-WEN",
     "photoLink": "https://academic.ntut.edu.tw/media/krxfh0lo/a.png",
-    "photoLink_small": "",
+    "photoLink_small": "https://academic.ntut.edu.tw/media/plehutdl/a-small.png",
     "paper": "一個漸進與互動式之Android應用程式爬蟲器",
     "paper_en": "An Incremental and Interactive Android App Crawler",
     "url": "http://hdl.handle.net/11296/5jf4rv"
@@ -814,7 +814,7 @@
     "name": "陳科銘",
     "englishName":"CHEN,KE-MING",
     "photoLink": "https://academic.ntut.edu.tw/media/qkqenkf4/a.png",
-    "photoLink_small": "",
+    "photoLink_small": "https://academic.ntut.edu.tw/media/4upbj3yh/a-small.png",
     "paper": "以漸增式使用者指引增加爬蟲器之網頁覆蓋率",
     "paper_en": "Increasing Crawlers Web Coverage by Using Incremental User Guidance",
     "url": "http://hdl.handle.net/11296/ye3k7z"
@@ -824,7 +824,7 @@
     "name": "鄭荃樺",
     "englishName":"ZHENG,QUAN-HUA",
     "photoLink": "https://academic.ntut.edu.tw/media/njrpblxr/a.png",
-    "photoLink_small": "",
+    "photoLink_small": "https://academic.ntut.edu.tw/media/3kfnhhir/a-small.png",
     "paper": "一個支援多掃描器之可插入式網頁弱點掃描平台",
     "paper_en": "A Pluggable Web Vulnerability Scanning Platform Supporting Multiple Scanners",
     "url": "http://hdl.handle.net/11296/ut46fq"
@@ -834,7 +834,7 @@
     "name": "蔡泳誠",
     "englishName":"CAI,YONG-CHENG",
     "photoLink": "https://academic.ntut.edu.tw/media/ej4b004f/a.png",
-    "photoLink_small": "",
+    "photoLink_small": "https://academic.ntut.edu.tw/media/nfflvcc2/a-small.png",
     "paper": "延伸雲端測試平台以支援Android與Firefox OS應用程式之測試",
     "paper_en": "Extending Cloud Testing Platform for Supporting Android and Firefox OS Application Testing",
     "url": "http://hdl.handle.net/11296/ef65ej"
@@ -844,7 +844,7 @@
     "name": "歐陽騰",
     "englishName":"OU YANG,TENG",
     "photoLink": "https://academic.ntut.edu.tw/media/rgmpipbd/a.png",
-    "photoLink_small": "",
+    "photoLink_small": "https://academic.ntut.edu.tw/media/qw1bw0ul/a-small.png",
     "paper": "一個支援處理相等GUI狀態及非決定性事件之Android爬蟲器",
     "paper_en": "An Android Crawler Supporting the Handling of GUI Equivalent States and Non-Deterministic Events",
     "url": "http://hdl.handle.net/11296/xycgq4"
@@ -854,7 +854,7 @@
     "name": "楊凱霖",
     "englishName":"YANG,KAI-LIN",
     "photoLink": "https://academic.ntut.edu.tw/media/c4mnzauy/a.png",
-    "photoLink_small": "",
+    "photoLink_small": "https://academic.ntut.edu.tw/media/vxgfaej4/a-small.png",
     "paper": "支援程式作業壞味道偵測與批改之工具",
     "paper_en": "A Tool for Detecting and Grading Code Smell in Programming Assignments",
     "url": "http://hdl.handle.net/11296/43yvc6"
@@ -864,7 +864,7 @@
     "name": "林容榆",
     "englishName":"LIN,RONG-YU",
     "photoLink": "https://academic.ntut.edu.tw/media/ck1iqtco/a.png",
-    "photoLink_small": "",
+    "photoLink_small": "https://academic.ntut.edu.tw/media/jo0dyax1/a-small.png",
     "paper": "Android手機手錶互動應用程式之相容性測試研究",
     "paper_en": "A Study on Testing the Compatibility of Application Interactions between Android Phones and Watches",
     "url": "http://hdl.handle.net/11296/n5gk3v"
@@ -874,7 +874,7 @@
     "name": "周世邦",
     "englishName":"ZHOU,SHI-BANG",
     "photoLink": "https://academic.ntut.edu.tw/media/xyhncbw5/a.png",
-    "photoLink_small": "",
+    "photoLink_small": "https://academic.ntut.edu.tw/media/mc1fncjw/a-small.png",
     "paper": "以主從架構擴充使用USB埠連接ADB之數量",
     "paper_en": "A Master/Slave Architecture for Extending the Number of ADB Connections Using USB ports",
     "url": "http://hdl.handle.net/11296/gvsg9b"
@@ -884,7 +884,7 @@
     "name": "古健樺",
     "englishName":"GU,JIAN-HUA",
     "photoLink": "https://academic.ntut.edu.tw/media/1pupferj/a.png",
-    "photoLink_small": "",
+    "photoLink_small": "https://academic.ntut.edu.tw/media/fe2fo0ra/a-small.png",
     "paper": "KDT測試腳本之視覺化工具",
     "paper_en": "A KDT Script Visualization Tool",
     "url": "http://hdl.handle.net/11296/24cqn8"
@@ -894,7 +894,7 @@
     "name": "崔宏康",
     "englishName":"CUI,HONG-KANG",
     "photoLink": "https://academic.ntut.edu.tw/media/4q3h1xqh/a.png",
-    "photoLink_small": "",
+    "photoLink_small": "https://academic.ntut.edu.tw/media/bokotcoc/a-small.png",
     "paper": "未定",
     "paper_en": "undecided",
     "url": ""
@@ -904,7 +904,7 @@
     "name": "朱宏文",
     "englishName":"ZHU,HONG-WEN",
     "photoLink": "https://academic.ntut.edu.tw/media/1yhgznm5/a.png",
-    "photoLink_small": "",
+    "photoLink_small": "https://academic.ntut.edu.tw/media/z4tb5wma/a-small.png",
     "paper": "Android App伺服器效能測試平台",
     "paper_en": "A Performance Testing Platform for Android App Servers",
     "url": "http://hdl.handle.net/11296/hn2g35"
@@ -914,7 +914,7 @@
     "name": "林承甫",
     "englishName":"LIN,CHENG-FU",
     "photoLink": "https://academic.ntut.edu.tw/media/fuwliff5/a.png",
-    "photoLink_small": "",
+    "photoLink_small": "https://academic.ntut.edu.tw/media/45rl35ul/a-small.png",
     "paper": "JavaScript網頁應用程式資料流測試模型之研究",
     "paper_en": "A Study on Dataflow Testing Model of JavaScript Web Applications",
     "url": "http://hdl.handle.net/11296/9k43rt"
@@ -924,7 +924,7 @@
     "name": "舒一斌",
     "englishName":"SHU,YI-BIN",
     "photoLink": "https://academic.ntut.edu.tw/media/4yzpgx2a/a.png",
-    "photoLink_small": "",
+    "photoLink_small": "https://academic.ntut.edu.tw/media/eerjzzrx/a-small.png",
     "paper": "遊戲自動化功能性測試工具設計與調查",
     "paper_en": "Automatic Functional Testing Tool-Design and Survey for Games",
     "url": "http://hdl.handle.net/11296/8wx955"
@@ -934,7 +934,7 @@
     "name": "陳祐翎",
     "englishName":"CHEN,YOU-LING",
     "photoLink": "https://academic.ntut.edu.tw/media/dcqevl3w/a.png",
-    "photoLink_small": "",
+    "photoLink_small": "https://academic.ntut.edu.tw/media/clgap4bt/a-small.png",
     "paper": "整合Android應用程式安全分析工具之平台",
     "paper_en": "A Platform of Integrating Security Analysis Tools for Android Applications",
     "url": "http://hdl.handle.net/11296/nk9bq9"
@@ -944,7 +944,7 @@
     "name": "黃睿哲",
     "englishName":"HUANG,RUI-ZHE",
     "photoLink": "https://academic.ntut.edu.tw/media/esem5bdp/a.png",
-    "photoLink_small": "",
+    "photoLink_small": "https://academic.ntut.edu.tw/media/hnmpsvqf/a-small.png",
     "paper": "一個以狀態為基礎之 Android 應用程式爬蟲器",
     "paper_en": "A State-based Crawler for Android Applications",
     "url": "http://hdl.handle.net/11296/dq6jqm"
@@ -954,7 +954,7 @@
     "name": "許家豪",
     "englishName":"XU,JIA-HAO",
     "photoLink": "none",
-    "photoLink_small": "",
+    "photoLink_small": "none",
     "paper": "Robot Framework之calabash - Android測試函式庫設計與實作",
     "paper_en": "Design and implementation of a Calabash - Android test library for Robot Framework",
     "url": "http://hdl.handle.net/11296/67nkst"
@@ -964,7 +964,7 @@
     "name": "邱威霖",
     "englishName":"QIU,WEI-LIN",
     "photoLink": "https://academic.ntut.edu.tw/media/z1sm1qmg/a.png",
-    "photoLink_small": "",
+    "photoLink_small": "https://academic.ntut.edu.tw/media/fswd3mbe/a-small.png",
     "paper": "利用Arduino機器手臂測試Android應用程式非靜止行為之研究",
     "paper_en": "A Study on Testing Non-Stationary Behavior of Android Applications Using an Arduino Robotic Arm",
     "url": "http://hdl.handle.net/11296/4u6ecz"
@@ -974,7 +974,7 @@
     "name": "陳季宣",
     "englishName":"CHEN,JI-XUAN",
     "photoLink": "https://academic.ntut.edu.tw/media/ee1bvy4m/a.png",
-    "photoLink_small": "",
+    "photoLink_small": "https://academic.ntut.edu.tw/media/lbgh0hf0/a-small.png",
     "paper": "Android底層事件轉換為關鍵字驅動測試腳本之設計與實作",
     "paper_en": "Design and Implementation of a Tool for Converting Android Low-Level Events into Keyword-Driven Testing Scripts",
     "url": "http://hdl.handle.net/11296/22k7a8"
@@ -984,7 +984,7 @@
     "name": "陳皇各",
     "englishName":"CHEN,HUANG-GE",
     "photoLink": "none",
-    "photoLink_small": "",
+    "photoLink_small": "none",
     "paper": "Android關鍵字驅動測試函式庫與工具之設計與開發",
     "paper_en": "Design and Development of an Android Keyword-Driven Test Library and Tool",
     "url": "http://hdl.handle.net/11296/6x5w97"
@@ -994,7 +994,7 @@
     "name": "黃泰瑚",
     "englishName":"HUANG,TAI-HU",
     "photoLink": "https://academic.ntut.edu.tw/media/3bshjnie/a.png",
-    "photoLink_small": "",
+    "photoLink_small": "https://academic.ntut.edu.tw/media/cnrd2oxg/a-small.png",
     "paper": "應用HTML5遊戲框架於物件導向程式設計實習課程教學",
     "paper_en": "On Applying HTML5 Game Framework to Teaching Object-Oriented Programming Laboratory",
     "url": "http://hdl.handle.net/11296/ap2j73"
@@ -1004,7 +1004,7 @@
     "name": "李友文",
     "englishName":"LI,YOU-WEN",
     "photoLink": "none",
-    "photoLink_small": "",
+    "photoLink_small": "none",
     "paper": "雲端測試服務平台Android測試過程錄影服務設計與實作",
     "paper_en": "Design and Implementation of a Video Recording Service for Android Testing on Cloud Testing Platform",
     "url": "http://hdl.handle.net/11296/j8nw5a"
@@ -1014,7 +1014,7 @@
     "name": "徐嘉陞",
     "englishName":"XU,JIA-SHENG",
     "photoLink": "https://academic.ntut.edu.tw/media/sh1d5qpg/a.png",
-    "photoLink_small": "",
+    "photoLink_small": "https://academic.ntut.edu.tw/media/e3hbgwyr/a-small.png",
     "paper": "支援遊戲自動化測試之HTML5遊戲框架",
     "paper_en": "An HTML5 Game Framework Supporting Automatic Game Testing",
     "url": "http://hdl.handle.net/11296/5v6wm8"
@@ -1024,7 +1024,7 @@
     "name": "姚皓天",
     "englishName":"YAO,HAO-TIAN",
     "photoLink": "https://academic.ntut.edu.tw/media/jzmil2kd/a.png",
-    "photoLink_small": "",
+    "photoLink_small": "https://academic.ntut.edu.tw/media/fxfncsgs/a-small.png",
     "paper": "適用於Android雲端測試平台 的負載平衡策略",
     "paper_en": "A Load Balancing Strategy for Android Cloud Testing Platform",
     "url": "http://hdl.handle.net/11296/z86zz9"
@@ -1034,7 +1034,7 @@
     "name": "黃冠智",
     "englishName":"HUANG,GUAN-ZHI",
     "photoLink": "none",
-    "photoLink_small": "",
+    "photoLink_small": "none",
     "paper": "雲端平行測試時間與成本效益分析之個案研究",
     "paper_en": "A Case Study on Execution Time and Cost-Benefit Analysis of Parallel Cloud Testing",
     "url": "http://hdl.handle.net/11296/282nbm"
@@ -1044,7 +1044,7 @@
     "name": "陳炳宏",
     "englishName":"CHEN,BING-HONG",
     "photoLink": "https://academic.ntut.edu.tw/media/eu0bqsgh/a.png",
-    "photoLink_small": "",
+    "photoLink_small": "https://academic.ntut.edu.tw/media/jsyflifs/a-small.png",
     "paper": "一個資料庫與全球資訊網應用的表格呈現語言",
     "paper_en": "A Table Presentation Language for Database and Web Applications",
     "url": "http://hdl.handle.net/11296/8g47j5"
