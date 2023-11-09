@@ -1,0 +1,333 @@
+<!DOCTYPE html>
+<html lang="zh">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>SELab & SDTLab</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            background: #1a2b45;
+        }
+
+        #title {
+            font-size: 3rem;
+            color: #fafafa;
+            text-align: center;
+            padding: 20px;
+        }
+          
+        #app {
+            width: 100%;
+            height: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        
+        .doors {
+            width: 20%;
+            display: flex;
+            flex-direction: column;
+        }
+        
+        .door {
+            background: #fafafa;
+            width: 200px;
+            height: 110px;
+            overflow: hidden;
+            border-radius: 5px;
+            margin: 5px auto;
+        }
+        
+        .boxes {
+            /* transform: translateY(0); */
+            transition: transform 1s ease-in-out;
+        }
+        
+        .box {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-size: 3rem;
+        }
+        
+        .buttons {
+            width: 20%;
+            display: flex;
+            flex-direction: column;
+        }
+        
+        button {
+            width: 200px;
+            cursor: pointer;
+            font-size: 3rem;
+            margin: auto;
+            border: none;
+            border-radius: 5px;
+            padding: 10px 15px;
+        }
+
+        button:hover {
+            background-color: grey;
+            color: #fafafa;
+        }
+
+        #memberList {
+            width: 20%;
+            display: flex;
+            flex-direction: column;
+        }
+
+        #memberList div {
+            font-size: 1rem;
+            color:#fafafa;
+            margin-top: 8px;
+            text-align: center;
+        }
+        
+        #backToPage {
+            position: fixed;
+            left: 0;
+            top: 0;
+            color: #1a2b45;
+            background-color: #fafafa;
+            padding: 5px;
+            text-align: center;
+            border-bottom-right-radius: 5px;
+            user-select: none;
+        }
+
+        .firework {
+            z-index: -1;
+            position: absolute;
+            top: 1px;
+            left: 1px;
+            width: calc(100% - 1px);
+            height: 95%;
+        }
+    </style>
+  </head>
+  <body>
+    <a href="index.html">
+        <div id="backToPage">Back To<br>Main Page</div>
+    </a>
+    <div id="title">SELab Lottery Go</div>
+    <div id="app">
+        <div class="buttons">
+            <button id="spinner">Play</button>
+        </div>
+        <div class="doors">
+            <div class="door">
+                <div class="boxes"></div>
+            </div>
+            
+            <div class="door">
+                <div class="boxes"></div>
+            </div>
+            
+            <div class="door">
+                <div class="boxes"></div>
+            </div>      
+            <div class="door">
+                <div class="boxes"></div>
+            </div>
+        
+            <div class="door">
+                <div class="boxes"></div>
+            </div>
+
+            <div class="door">
+                <div class="boxes"></div>
+            </div>
+        </div>
+        <div id="memberList">
+            <div>陳峰楷</div>
+            <div>陳政瑋</div>
+            <div>王子權</div>
+            <div>莊永</div>
+            <div>魏瑞霖</div>
+            <div>李昀翰</div>
+            <div>潘建蒼</div>
+            <div>劉恒育</div>
+            <div>李光耀</div>
+            <div>韓宗穎</div>
+            <div>張鈺亭</div>
+            <div>林祐清</div>
+            <div>林建澄</div>
+            <div>鍾亮節</div>
+            <div>王派軒</div>
+            <div>林俊陞</div>
+            <div>黃鈺婷</div>
+            <div>郭書廷</div>
+            <div>吳柏諭</div>
+            <div>顧庭維</div>
+            <div>陳謙</div>
+            <div>洪裔晟</div>
+        </div>
+    </div>
+    <div id="firework1" class="firework"></div>
+    <div id="firework2" class="firework"></div>
+
+    <!-- jsDelivr  -->
+    <script src="https://cdn.jsdelivr.net/npm/fireworks-js@2.x/dist/index.umd.js"></script>
+
+    <!-- UNPKG -->
+    <script src="https://unpkg.com/fireworks-js@2.x/dist/index.umd.js"></script>
+
+    <script>
+        let isDone = true;
+        let isPlay = false;
+
+        function getAllMembers() {
+            let arr = []
+            const members = document.querySelectorAll('#memberList div');
+            for (const member of members) {
+                arr.push(member.textContent);
+            }
+            return arr;
+        }
+
+        const firework1 = new Fireworks.default(document.querySelector('#firework1'))
+        firework1.updateOptions({
+            rocketsPoint: {
+                min: 25,
+                max: 25
+            },
+            sound: {
+                enabled: true,
+                files: [
+                    './sounds/explosion0.mp3',
+                    './sounds/explosion1.mp3',
+                    './sounds/explosion2.mp3'
+                ],
+                volume: {
+                    min: 5,
+                    max: 75
+                }
+            }
+        })
+        const firework2 = new Fireworks.default(document.querySelector('#firework2'))
+        firework2.updateOptions({
+            rocketsPoint: {
+                min: 75,
+                max: 75
+            },
+            sound: {
+                enabled: true,
+                files: [
+                    './sounds/explosion0.mp3',
+                    './sounds/explosion1.mp3',
+                    './sounds/explosion2.mp3'
+                ],
+                volume: {
+                    min: 5,
+                    max: 75
+                }
+            }
+        })
+
+        
+        const doors = document.querySelectorAll('.door');
+        
+        document.querySelector('#spinner').addEventListener('click', spin);
+        
+        function init(firstInit = true, groups = 1, duration = 1, items = getAllMembers()) {
+            for (const door of doors) {
+                if (firstInit) {
+                    door.dataset.spinned = '0';
+                } else if (door.dataset.spinned === '1') {
+                    return;
+                }
+        
+                const boxes = door.querySelector('.boxes');
+                const boxesClone = boxes.cloneNode(false);
+                const pool = ['❓'];
+            
+                if (!firstInit) {
+                    const arr = [];
+                    for (let n = 0; n < (groups > 0 ? groups : 1); n++) {
+                        arr.push(...items);
+                    }
+                    pool.push(...shuffle(arr));
+                    items.splice(items.findIndex((ele) => ele === pool[pool.length - 1]), 1);
+            
+                    boxesClone.addEventListener(
+                        'transitionstart',
+                        function () {
+                            door.dataset.spinned = '1';
+                            this.querySelectorAll('.box').forEach((box) => {
+                            box.style.filter = 'blur(1px)';
+                            });
+                        },
+                        { once: true }
+                    );
+            
+                    boxesClone.addEventListener(
+                        'transitionend',
+                        function () {
+                            this.querySelectorAll('.box').forEach((box, index) => {
+                            box.style.filter = 'blur(0)';
+                            if (index > 0) this.removeChild(box);
+                            });
+                        },
+                        { once: true }
+                    );
+                }
+            
+                for (let i = pool.length - 1; i >= 0; i--) {
+                    const box = document.createElement('div');
+                    box.classList.add('box');
+                    box.style.width = door.clientWidth + 'px';
+                    box.style.height = door.clientHeight + 'px';
+                    box.textContent = pool[i];
+                    boxesClone.appendChild(box);
+                }
+                boxesClone.style.transitionDuration = `${duration > 0 ? duration : 1}s`;
+                boxesClone.style.transform = `translateY(-${door.clientHeight * (pool.length - 1)}px)`;
+                door.replaceChild(boxesClone, boxes);
+            }
+        }
+        
+        async function spin() {
+            if (!isDone) return;
+            if (isPlay) {
+                init();
+            }
+            isDone = false;
+            init(false, 1, 2);
+            
+            for (const door of doors) {
+                const boxes = door.querySelector('.boxes');
+                const duration = parseInt(boxes.style.transitionDuration);
+                boxes.style.transform = 'translateY(0)';
+                await new Promise((resolve) => setTimeout(resolve, duration * 100));
+            }
+            isDone = true;
+            isPlay = true;
+            
+
+            for (let i=1; i<=5; i++) {
+                setTimeout(() => {
+                    firework1.launch(i)
+                }, Math.random() * 4000 + 1000);
+                setTimeout(() => {
+                    firework2.launch(5 - i + 1)
+                }, Math.random() * 4000 + 1000);
+            }
+        }
+        
+        function shuffle([...arr]) {
+            let m = arr.length;
+            while (m) {
+                const i = Math.floor(Math.random() * m--);
+                [arr[m], arr[i]] = [arr[i], arr[m]];
+            }
+            return arr;
+        }
+        
+        init();
+    </script>
+  </body>
+</html>
