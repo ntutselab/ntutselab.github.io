@@ -22,7 +22,7 @@
             width: 100%;
             height: 100%;
             display: flex;
-            justify-content: center;
+            justify-content: space-around;
             align-items: center;
         }
         
@@ -107,13 +107,74 @@
             width: calc(100% - 1px);
             height: 95%;
         }
+
+        #OpeningVideo {
+            display: none;
+            position: fixed;
+            top: 0;
+            left: 0;
+            margin: 104px auto;
+            width: 100%;
+            height: 100%;
+        }
+
+        #OpeningVideo div {
+            position: relative;
+            width: 36%;
+            height: 80%;
+            margin: auto;
+            border-radius: 20px;
+            overflow: hidden;
+        }
+        
+        #OpeningVideo video {
+            display: block;
+            margin: auto;
+            width: 100%;
+            overflow: hidden;
+        }
+
+        @keyframes fadeInFromNone {
+            0% {
+                display: none;
+                opacity: 0;
+            }
+        
+            10% {
+                display: block;
+                opacity: 0;
+            }
+        
+            100% {
+                display: block;
+                opacity: 1;
+            }
+        }
+
+        @keyframes fadeOutFromNone {
+            0% {
+                display: block;
+                opacity: 1;
+            }
+        
+            90% {
+                display: block;
+                opacity: 0;
+            }
+        
+            100% {
+                display: none;
+                opacity: 0;
+            }
+        }
+
     </style>
   </head>
   <body>
     <a href="index.html">
         <div id="backToPage">Back To<br>Main Page</div>
     </a>
-    <div id="title">SELab Lottery Go</div>
+    <div id="title">SELab Gacha Go</div>
     <div id="app">
         <div class="buttons">
             <button id="spinner">Play</button>
@@ -167,6 +228,12 @@
             <div>洪裔晟</div>
         </div>
     </div>
+
+    <div id="OpeningVideo">
+        <div><video preload="auto"><source src="./file/OpeningVideo.mp4" /></video></div>
+    </div>
+    <audio><source src="./file/OpeningAudio.mp3" /></audio>
+
     <div id="firework1" class="firework"></div>
     <div id="firework2" class="firework"></div>
 
@@ -231,7 +298,7 @@
         
         const doors = document.querySelectorAll('.door');
         
-        document.querySelector('#spinner').addEventListener('click', spin);
+        document.querySelector('#spinner').addEventListener('click', clickEvent);
         
         function init(firstInit = true, groups = 1, duration = 1, items = getAllMembers()) {
             for (const door of doors) {
@@ -289,6 +356,11 @@
                 door.replaceChild(boxesClone, boxes);
             }
         }
+
+        function clickEvent() {
+            playOpeningVideo();
+            setTimeout(spin, 3500); // let spin start after video
+        }
         
         async function spin() {
             if (!isDone) return;
@@ -306,16 +378,6 @@
             }
             isDone = true;
             isPlay = true;
-            
-
-            for (let i=1; i<=5; i++) {
-                setTimeout(() => {
-                    firework1.launch(i)
-                }, Math.random() * 4000 + 1000);
-                setTimeout(() => {
-                    firework2.launch(5 - i + 1)
-                }, Math.random() * 4000 + 1000);
-            }
         }
         
         function shuffle([...arr]) {
@@ -325,6 +387,34 @@
                 [arr[m], arr[i]] = [arr[i], arr[m]];
             }
             return arr;
+        }
+
+        function playOpeningVideo() {
+            let videoElement = document.querySelector('#OpeningVideo');
+            videoElement.style.animation = "fadeInFromNone 0.4s ease-out";
+            videoElement.style.display = 'block';
+            const video = document.querySelector('#OpeningVideo video');
+            video.play();
+            setTimeout(()=>{
+                const audio = document.querySelector('audio');
+                audio.play();
+            }, 700);
+            video.addEventListener('ended', () => {
+                videoElement.style.animation = "fadeOutFromNone 0.4s ease-out";
+                videoElement.style.display = 'none';
+                launchFirework();
+            });
+        }
+
+        function launchFirework() {
+            for (let i=1; i<=5; i++) {
+                setTimeout(() => {
+                    firework1.launch(i)
+                }, Math.random() * 4000);
+                setTimeout(() => {
+                    firework2.launch(5 - i + 1)
+                }, Math.random() * 4000);
+            }
         }
         
         init();
