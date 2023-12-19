@@ -15,3 +15,4 @@ SELab & SDTLab 實驗室網頁
   * index_zh.html - 中文版頁面 (靜態網頁版本)
 
 * 照片目前是放在 學術資源 上(如果連結失效請至 劉老師的學術資源網 更新)
+* 照片的 small 縮小方式是使用 `ffmpeg -i imageName.png -vf scale=20:-1 imageName-small.png`
