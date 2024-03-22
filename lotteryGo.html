@@ -342,8 +342,8 @@
                     './sounds/explosion2.mp3'
                 ],
                 volume: {
-                    min: 5,
-                    max: 10
+                    min: 2,
+                    max: 7
                 }
             }
         })
@@ -361,8 +361,8 @@
                     './sounds/explosion2.mp3'
                 ],
                 volume: {
-                    min: 5,
-                    max: 10
+                    min: 2,
+                    max: 7
                 }
             }
         })
@@ -482,8 +482,9 @@
             videoElement.style.display = 'block';
             const video = document.querySelector('#OpeningVideo video');
             video.play();
-                        setTimeout(()=>{
+            setTimeout(()=>{
                 const audio = document.querySelector('audio');
+                audio.volume = 0.3;
                 audio.play();
             }, 700);
             video.addEventListener('ended', () => {
