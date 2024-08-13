@@ -727,7 +727,7 @@
     "photoLink_small": "https://academic.ntut.edu.tw/media/yn4lcfpr/a-small.png",
     "paper": "雲端測試平台之測試覆蓋率工具設計與實作",
     "paper_en": "The Design and Implementation of a Test Coverage Tool for Cloud Testing Platform",
-    "url": "http://hdl.handle.net/11296/yygy53"
+    "url": "https//hdl.handle.net/11296/yygy53"
   },
   "陳又樫": {
     "year": 104,
@@ -737,7 +737,7 @@
     "photoLink_small": "https://academic.ntut.edu.tw/media/it2cqz3f/a-small.png",
     "paper": "雲端測試平台之Android應用程式崩潰測試工具",
     "paper_en": "An Android App Crash Testing Tool for Cloud Testing Platform",
-    "url": "http://hdl.handle.net/11296/9h8rmw"
+    "url": "https//hdl.handle.net/11296/9h8rmw"
   },
   "廖振諺": {
     "year": 104,
@@ -747,7 +747,7 @@
     "photoLink_small": "https://academic.ntut.edu.tw/media/ygxajplm/a-small.png",
     "paper": "偵測重複KDT測試腳本之方法",
     "paper_en": "An Approach for Detecting Duplicated KDT Scripts",
-    "url": "http://hdl.handle.net/11296/jx8c9h"
+    "url": "https//hdl.handle.net/11296/jx8c9h"
   },
   "李宗哲": {
     "year": 104,
@@ -757,7 +757,7 @@
     "photoLink_small": "https://academic.ntut.edu.tw/media/f51bcptj/a-small.png",
     "paper": "以爬蟲器產生測試案例之Android程式異常行為偵測方法",
     "paper_en": "Detecting Android Application Anomalies Based on Test Case Generation from a Crawler",
-    "url": "http://hdl.handle.net/11296/7uka4b"
+    "url": "https//hdl.handle.net/11296/7uka4b"
   },
   "孫季加": {
     "year": 104,
@@ -767,7 +767,7 @@
     "photoLink_small": "none",
     "paper": "一個支援程式碼覆蓋率量測之漸進與互動式網頁爬蟲器",
     "paper_en": "An Incremental and Interactive Web Crawler Supporting Code Coverage Measurement",
-    "url": "http://hdl.handle.net/11296/ec8zz7"
+    "url": "https//hdl.handle.net/11296/ec8zz7"
   },
   "何書杭": {
     "year": 104,
@@ -777,7 +777,7 @@
     "photoLink_small": "none",
     "paper": "一個支援Android爬蟲演算法比較之框架",
     "paper_en": "A Framework Supporting the Comparison of Android Crawling Algorithms",
-    "url": "http://hdl.handle.net/11296/3qj463"
+    "url": "https//hdl.handle.net/11296/3qj463"
   },
   "李柏鋐": {
     "year": 104,
@@ -787,7 +787,7 @@
     "photoLink_small": "none",
     "paper": "以資料流分析為基礎之Feature Envy偵測方法",
     "paper_en": "A Feature Envy Detection Method Based on Data Flow Analysis",
-    "url": "http://hdl.handle.net/11296/e2h88q"
+    "url": "https//hdl.handle.net/11296/e2h88q"
   },
   "黃泓鳴": {
     "year": 104,
@@ -797,7 +797,7 @@
     "photoLink_small": "none",
     "paper": "基於深度學習之音樂片段人聲辨識",
     "paper_en": "Singing Voice Detection Based on Deep Learning Algorithm",
-    "url": "http://hdl.handle.net/11296/z59ga8"
+    "url": "https//hdl.handle.net/11296/z59ga8"
   },
   "黃靖文": {
     "year": 104,
@@ -807,7 +807,7 @@
     "photoLink_small": "https://academic.ntut.edu.tw/media/plehutdl/a-small.png",
     "paper": "一個漸進與互動式之Android應用程式爬蟲器",
     "paper_en": "An Incremental and Interactive Android App Crawler",
-    "url": "http://hdl.handle.net/11296/5jf4rv"
+    "url": "https//hdl.handle.net/11296/5jf4rv"
   },
   "Rahil Jumiyani": {
     "year": 103,
@@ -817,7 +817,7 @@
     "photoLink_small": "https://academic.ntut.edu.tw/media/f33atr0a/a-small.png",
     "paper": "Android手機手錶購物應用程式之設計與實作",
     "paper_en": "The Design and Implementation of a Shopping Application for an Android Phone and Watch",
-    "url": "http://hdl.handle.net/11296/96uwk5"
+    "url": "https//hdl.handle.net/11296/96uwk5"
   },
   "陳科銘": {
     "year": 103,
@@ -827,7 +827,7 @@
     "photoLink_small": "https://academic.ntut.edu.tw/media/4upbj3yh/a-small.png",
     "paper": "以漸增式使用者指引增加爬蟲器之網頁覆蓋率",
     "paper_en": "Increasing Crawlers Web Coverage by Using Incremental User Guidance",
-    "url": "http://hdl.handle.net/11296/ye3k7z"
+    "url": "https//hdl.handle.net/11296/ye3k7z"
   },
   "鄭荃樺": {
     "year": 103,
@@ -837,7 +837,7 @@
     "photoLink_small": "https://academic.ntut.edu.tw/media/3kfnhhir/a-small.png",
     "paper": "一個支援多掃描器之可插入式網頁弱點掃描平台",
     "paper_en": "A Pluggable Web Vulnerability Scanning Platform Supporting Multiple Scanners",
-    "url": "http://hdl.handle.net/11296/ut46fq"
+    "url": "https//hdl.handle.net/11296/ut46fq"
   },
   "蔡泳誠": {
     "year": 103,
@@ -847,7 +847,7 @@
     "photoLink_small": "https://academic.ntut.edu.tw/media/nfflvcc2/a-small.png",
     "paper": "延伸雲端測試平台以支援Android與Firefox OS應用程式之測試",
     "paper_en": "Extending Cloud Testing Platform for Supporting Android and Firefox OS Application Testing",
-    "url": "http://hdl.handle.net/11296/ef65ej"
+    "url": "https//hdl.handle.net/11296/ef65ej"
   },
   "歐陽騰": {
     "year": 103,
@@ -857,7 +857,7 @@
     "photoLink_small": "https://academic.ntut.edu.tw/media/qw1bw0ul/a-small.png",
     "paper": "一個支援處理相等GUI狀態及非決定性事件之Android爬蟲器",
     "paper_en": "An Android Crawler Supporting the Handling of GUI Equivalent States and Non-Deterministic Events",
-    "url": "http://hdl.handle.net/11296/xycgq4"
+    "url": "https//hdl.handle.net/11296/xycgq4"
   },
   "楊凱霖": {
     "year": 103,
@@ -867,7 +867,7 @@
     "photoLink_small": "https://academic.ntut.edu.tw/media/vxgfaej4/a-small.png",
     "paper": "支援程式作業壞味道偵測與批改之工具",
     "paper_en": "A Tool for Detecting and Grading Code Smell in Programming Assignments",
-    "url": "http://hdl.handle.net/11296/43yvc6"
+    "url": "https//hdl.handle.net/11296/43yvc6"
   },
   "林容榆": {
     "year": 103,
@@ -877,7 +877,7 @@
     "photoLink_small": "https://academic.ntut.edu.tw/media/jo0dyax1/a-small.png",
     "paper": "Android手機手錶互動應用程式之相容性測試研究",
     "paper_en": "A Study on Testing the Compatibility of Application Interactions between Android Phones and Watches",
-    "url": "http://hdl.handle.net/11296/n5gk3v"
+    "url": "https//hdl.handle.net/11296/n5gk3v"
   },
   "周世邦": {
     "year": 103,
@@ -887,7 +887,7 @@
     "photoLink_small": "https://academic.ntut.edu.tw/media/mc1fncjw/a-small.png",
     "paper": "以主從架構擴充使用USB埠連接ADB之數量",
     "paper_en": "A Master/Slave Architecture for Extending the Number of ADB Connections Using USB ports",
-    "url": "http://hdl.handle.net/11296/gvsg9b"
+    "url": "https//hdl.handle.net/11296/gvsg9b"
   },
   "古健樺": {
     "year": 103,
@@ -897,7 +897,7 @@
     "photoLink_small": "https://academic.ntut.edu.tw/media/fe2fo0ra/a-small.png",
     "paper": "KDT測試腳本之視覺化工具",
     "paper_en": "A KDT Script Visualization Tool",
-    "url": "http://hdl.handle.net/11296/24cqn8"
+    "url": "https//hdl.handle.net/11296/24cqn8"
   },
   "崔宏康": {
     "year": 102,
@@ -917,7 +917,7 @@
     "photoLink_small": "https://academic.ntut.edu.tw/media/z4tb5wma/a-small.png",
     "paper": "Android App伺服器效能測試平台",
     "paper_en": "A Performance Testing Platform for Android App Servers",
-    "url": "http://hdl.handle.net/11296/hn2g35"
+    "url": "https//hdl.handle.net/11296/hn2g35"
   },
   "林承甫": {
     "year": 102,
@@ -927,7 +927,7 @@
     "photoLink_small": "https://academic.ntut.edu.tw/media/45rl35ul/a-small.png",
     "paper": "JavaScript網頁應用程式資料流測試模型之研究",
     "paper_en": "A Study on Dataflow Testing Model of JavaScript Web Applications",
-    "url": "http://hdl.handle.net/11296/9k43rt"
+    "url": "https//hdl.handle.net/11296/9k43rt"
   },
   "舒一斌": {
     "year": 102,
@@ -937,7 +937,7 @@
     "photoLink_small": "https://academic.ntut.edu.tw/media/eerjzzrx/a-small.png",
     "paper": "遊戲自動化功能性測試工具設計與調查",
     "paper_en": "Automatic Functional Testing Tool-Design and Survey for Games",
-    "url": "http://hdl.handle.net/11296/8wx955"
+    "url": "https//hdl.handle.net/11296/8wx955"
   },
   "陳祐翎": {
     "year": 102,
@@ -947,7 +947,7 @@
     "photoLink_small": "https://academic.ntut.edu.tw/media/clgap4bt/a-small.png",
     "paper": "整合Android應用程式安全分析工具之平台",
     "paper_en": "A Platform of Integrating Security Analysis Tools for Android Applications",
-    "url": "http://hdl.handle.net/11296/nk9bq9"
+    "url": "https//hdl.handle.net/11296/nk9bq9"
   },
   "黃睿哲": {
     "year": 102,
@@ -957,7 +957,7 @@
     "photoLink_small": "https://academic.ntut.edu.tw/media/hnmpsvqf/a-small.png",
     "paper": "一個以狀態為基礎之 Android 應用程式爬蟲器",
     "paper_en": "A State-based Crawler for Android Applications",
-    "url": "http://hdl.handle.net/11296/dq6jqm"
+    "url": "https//hdl.handle.net/11296/dq6jqm"
   },
   "許家豪": {
     "year": 101,
@@ -967,7 +967,7 @@
     "photoLink_small": "none",
     "paper": "Robot Framework之calabash - Android測試函式庫設計與實作",
     "paper_en": "Design and implementation of a Calabash - Android test library for Robot Framework",
-    "url": "http://hdl.handle.net/11296/67nkst"
+    "url": "https//hdl.handle.net/11296/67nkst"
   },
   "邱威霖": {
     "year": 101,
@@ -977,7 +977,7 @@
     "photoLink_small": "https://academic.ntut.edu.tw/media/fswd3mbe/a-small.png",
     "paper": "利用Arduino機器手臂測試Android應用程式非靜止行為之研究",
     "paper_en": "A Study on Testing Non-Stationary Behavior of Android Applications Using an Arduino Robotic Arm",
-    "url": "http://hdl.handle.net/11296/4u6ecz"
+    "url": "https//hdl.handle.net/11296/4u6ecz"
   },
   "陳季宣": {
     "year": 101,
@@ -987,7 +987,7 @@
     "photoLink_small": "https://academic.ntut.edu.tw/media/lbgh0hf0/a-small.png",
     "paper": "Android底層事件轉換為關鍵字驅動測試腳本之設計與實作",
     "paper_en": "Design and Implementation of a Tool for Converting Android Low-Level Events into Keyword-Driven Testing Scripts",
-    "url": "http://hdl.handle.net/11296/22k7a8"
+    "url": "https//hdl.handle.net/11296/22k7a8"
   },
   "陳皇各": {
     "year": 101,
@@ -997,7 +997,7 @@
     "photoLink_small": "none",
     "paper": "Android關鍵字驅動測試函式庫與工具之設計與開發",
     "paper_en": "Design and Development of an Android Keyword-Driven Test Library and Tool",
-    "url": "http://hdl.handle.net/11296/6x5w97"
+    "url": "https//hdl.handle.net/11296/6x5w97"
   },
   "黃泰瑚": {
     "year": 101,
@@ -1007,7 +1007,7 @@
     "photoLink_small": "https://academic.ntut.edu.tw/media/cnrd2oxg/a-small.png",
     "paper": "應用HTML5遊戲框架於物件導向程式設計實習課程教學",
     "paper_en": "On Applying HTML5 Game Framework to Teaching Object-Oriented Programming Laboratory",
-    "url": "http://hdl.handle.net/11296/ap2j73"
+    "url": "https//hdl.handle.net/11296/ap2j73"
   },
   "李友文": {
     "year": 101,
@@ -1017,7 +1017,7 @@
     "photoLink_small": "none",
     "paper": "雲端測試服務平台Android測試過程錄影服務設計與實作",
     "paper_en": "Design and Implementation of a Video Recording Service for Android Testing on Cloud Testing Platform",
-    "url": "http://hdl.handle.net/11296/j8nw5a"
+    "url": "https//hdl.handle.net/11296/j8nw5a"
   },
   "徐嘉陞": {
     "year": 101,
@@ -1027,7 +1027,7 @@
     "photoLink_small": "https://academic.ntut.edu.tw/media/e3hbgwyr/a-small.png",
     "paper": "支援遊戲自動化測試之HTML5遊戲框架",
     "paper_en": "An HTML5 Game Framework Supporting Automatic Game Testing",
-    "url": "http://hdl.handle.net/11296/5v6wm8"
+    "url": "https//hdl.handle.net/11296/5v6wm8"
   },
   "姚皓天": {
     "year": 101,
@@ -1037,7 +1037,7 @@
     "photoLink_small": "https://academic.ntut.edu.tw/media/fxfncsgs/a-small.png",
     "paper": "適用於Android雲端測試平台 的負載平衡策略",
     "paper_en": "A Load Balancing Strategy for Android Cloud Testing Platform",
-    "url": "http://hdl.handle.net/11296/z86zz9"
+    "url": "https//hdl.handle.net/11296/z86zz9"
   },
   "黃冠智": {
     "year": 100,
@@ -1047,7 +1047,7 @@
     "photoLink_small": "none",
     "paper": "雲端平行測試時間與成本效益分析之個案研究",
     "paper_en": "A Case Study on Execution Time and Cost-Benefit Analysis of Parallel Cloud Testing",
-    "url": "http://hdl.handle.net/11296/282nbm"
+    "url": "https//hdl.handle.net/11296/282nbm"
   },
   "陳炳宏": {
     "year": 100,
@@ -1057,6 +1057,6 @@
     "photoLink_small": "https://academic.ntut.edu.tw/media/jsyflifs/a-small.png",
     "paper": "一個資料庫與全球資訊網應用的表格呈現語言",
     "paper_en": "A Table Presentation Language for Database and Web Applications",
-    "url": "http://hdl.handle.net/11296/8g47j5"
+    "url": "https//hdl.handle.net/11296/8g47j5"
   }
 }
