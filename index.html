@@ -312,11 +312,24 @@
         </div>
     </div>
 
-    <!-- 實驗室成員
+    <!-- 實驗室團體照以及成員
     ==========================================-->
     <div id="tf-team" class="text-center">
         <div class="overlay">
             <div class="container">
+                <div class="section-title center">
+                    <h2><strong>Group Photo</strong> </h2>
+                    <div class="line">
+                        <hr>
+                    </div>
+                </div>
+
+                <div id="group_photo">
+                    
+                    <!-- Group Photo -->
+
+                </div>
+
                 <div class="section-title center">
                     <h2><strong>Member</strong></h2>
                     <div class="line">
@@ -353,6 +366,20 @@
         </div>
     </div>
     <script>
+        /* Lab Group Photo */
+        $.getJSON('./data/group_photos.json', function(data) {
+            let initString = "";
+            $.each( data, function( key, val ) {
+                initString += `
+                    <div class=\"gp_container\">
+                        <img src=\"${val.photo}\" loading=\"lazy\" class=\"img-responsive\" alt=\"${val.title}\">
+                        <h4 class=\"gp_text\">${val.title}</h4>
+                    </div>
+                `;
+            });
+            $('#group_photo').append(initString);
+        });
+
         /* Lab Member Script */
         $.getJSON('./data/members.json', function(data) {
             let initString = "";

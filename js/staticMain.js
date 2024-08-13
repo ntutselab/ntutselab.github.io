@@ -120,6 +120,24 @@ function mainFunction() {
         })
     
         $(document).ready(function() {
+            $("#group_photo").owlCarousel({
+                navigation : false, // Show next and prev buttons
+                slideSpeed : 300,
+                paginationSpeed : 400,
+                autoPlay : 2000,
+                autoHeight : true,
+                itemsCustom : [
+                    [0, 1],
+                    [450, 1],
+                    [600, 1],
+                    [700, 1],
+                    [1000, 2],
+                    [1200, 2],
+                    [1400, 3],
+                    [1600, 3]
+                  ],
+            });
+
             $("#team").owlCarousel({
     
                 navigation : false, // Show next and prev buttons

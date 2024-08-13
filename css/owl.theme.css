@@ -77,3 +77,14 @@
 	min-height: 150px;
 	background: url(https://www.dropbox.com/scl/fi/vs6u53y9aasmvqj9gcru4/ajax-loader.gif?rlkey=19o9l1o5n8ngso552cnzl56ax&raw=1) no-repeat center center
 }
+
+.owl-item{
+	margin: 0 2.5px;
+	display: flex;
+	align-items: center;
+	height: 100%;
+}
+
+.owl-wrapper{
+	height: 100%;
+}

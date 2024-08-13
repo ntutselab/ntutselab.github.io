@@ -872,3 +872,21 @@ body{
 	color: red;
 	font-weight: bold;
 }
+
+.gp_container{
+	position: relative;
+}
+
+.gp_container:hover .gp_text{
+	opacity: 1;
+}
+
+.gp_text{
+	position: absolute;
+	background: rgba(0, 0, 0, 0.66);
+	width: 100%;
+	text-align: center;
+	bottom: 0;
+	opacity: 0;
+	transition: all 0.5s;
+}
