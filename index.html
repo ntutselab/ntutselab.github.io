@@ -372,7 +372,7 @@
             $.each( data, function( key, val ) {
                 initString += `
                     <div class=\"gp_container\">
-                        <img src=\"${val.photo}\" class=\"img-responsive\" alt=\"\">
+                        <img data-src=\"${val.photo}\" loading=\"lazy\" class=\"img-responsive group_photo\" alt=\"${val.title}\">
                         <h4 class=\"gp_text\">${val.title}</h4>
                     </div>
                 `;

@@ -17,6 +17,7 @@ function switchLabMember() {
     // Set lightbox_team isotope
     var $container_team = $('#lightbox_team');
     const observer = lozad('.team-img'); // lazy loads elements with default selector as '.team-img'
+    const observer_group_photo = lozad('.group-photo'); // lazy loads elements with default selector as '.group-photo'
     $container_team.isotope({
         filter: '.112',
         animationOptions: {
@@ -28,6 +29,10 @@ function switchLabMember() {
 
     $('img.112').each(function() {
         observer.triggerLoad(this);
+    });
+
+    $('img.group_photo').each(function() {
+        observer_group_photo.triggerLoad(this);
     });
 
     // When Change team year
