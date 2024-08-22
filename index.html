@@ -366,20 +366,6 @@
         </div>
     </div>
     <script>
-        /* Lab Group Photo */
-        $.getJSON('./data/group_photos.json', function(data) {
-            let initString = "";
-            $.each( data, function( key, val ) {
-                initString += `
-                    <div class=\"gp_container\">
-                        <img data-src=\"${val.photo}\" loading=\"lazy\" class=\"img-responsive group_photo\" alt=\"${val.title}\">
-                        <h4 class=\"gp_text\">${val.title}</h4>
-                    </div>
-                `;
-            });
-            $('#group_photo').append(initString);
-        });
-
         /* Lab Member Script */
         $.getJSON('./data/members.json', function(data) {
             let initString = "";
