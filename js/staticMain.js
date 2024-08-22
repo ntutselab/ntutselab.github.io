@@ -131,6 +131,7 @@ function mainFunction() {
                 paginationSpeed : 400,
                 autoPlay : 2000,
                 autoHeight : true,
+                afterInit: true,
                 itemsCustom : [
                     [0, 1],
                     [450, 1],
