@@ -1,4 +1,154 @@
 {
+  "吳冠穎" : {
+    "year": 113,
+    "name": "吳冠穎",
+    "englishName":"WU,GUAN-YING",
+    "photoLink": "https://imgur.com/HxOIqJo",
+    "photoLink_small": "https://imgur.com/HxOIqJo",
+    "paper": "未定",
+    "paper_en": "undecided",
+    "url": ""
+  },
+  "沈宗毅" : {
+    "year": 113,
+    "name": "沈宗毅",
+    "englishName":"",
+    "photoLink": "https://imgur.com/5ov2GI1",
+    "photoLink_small": "https://imgur.com/5ov2GI1",
+    "paper": "未定",
+    "paper_en": "undecided",
+    "url": ""
+  },
+  "饒瑞軒" : {
+    "year": 113,
+    "name": "饒瑞軒",
+    "englishName":"RAO,RUI-XUAN",
+    "photoLink": "https://imgur.com/AS8cfXn",
+    "photoLink_small": "https://imgur.com/AS8cfXn",
+    "paper": "未定",
+    "paper_en": "undecided",
+    "url": ""
+  },
+  "簡珮倫" : {
+    "year": 113,
+    "name": "簡珮倫",
+    "englishName":"JIAN,PEI-LUN",
+    "photoLink": "https://imgur.com/Y3IPG71",
+    "photoLink_small": "https://imgur.com/Y3IPG71",
+    "paper": "未定",
+    "paper_en": "undecided",
+    "url": ""
+  },
+  "楊凱崴" : {
+    "year": 113,
+    "name": "楊凱崴",
+    "englishName":"YANG,KAI-WEI",
+    "photoLink": "https://imgur.com/OEcbdEM",
+    "photoLink_small": "https://imgur.com/OEcbdEM",
+    "paper": "未定",
+    "paper_en": "undecided",
+    "url": ""
+  },
+  "程翔" : {
+    "year": 113,
+    "name": "程翔",
+    "englishName":"CHENG,XIANG",
+    "photoLink": "https://imgur.com/RfCLhpI",
+    "photoLink_small": "https://imgur.com/RfCLhpI",
+    "paper": "未定",
+    "paper_en": "undecided",
+    "url": ""
+  },
+  "陳俞安" : {
+    "year": 113,
+    "name": "陳俞安",
+    "englishName":"CHEN,YU-AN",
+    "photoLink": "https://imgur.com/c38RFwZ",
+    "photoLink_small": "https://imgur.com/c38RFwZ",
+    "paper": "未定",
+    "paper_en": "undecided",
+    "url": ""
+  },
+  "陳安琪" : {
+    "year": 113,
+    "name": "陳安琪",
+    "englishName":"CHEN,AN-QI",
+    "photoLink": "https://imgur.com/mcMbvTY",
+    "photoLink_small": "https://imgur.com/mcMbvTY",
+    "paper": "未定",
+    "paper_en": "undecided",
+    "url": ""
+  },
+  "張博翔" : {
+    "year": 113,
+    "name": "張博翔",
+    "englishName":"ZHANG,BO-XIANG",
+    "photoLink": "https://imgur.com/TOLFtaC",
+    "photoLink_small": "https://imgur.com/TOLFtaC",
+    "paper": "未定",
+    "paper_en": "undecided",
+    "url": ""
+  },
+  "柯瑞霖" : {
+    "year": 113,
+    "name": "柯瑞霖",
+    "englishName":"KE,RUI-LIN",
+    "photoLink": "https://imgur.com/CPSLJXU",
+    "photoLink_small": "https://imgur.com/CPSLJXU",
+    "paper": "未定",
+    "paper_en": "undecided",
+    "url": ""
+  },
+  "侯育名" : {
+    "year": 113,
+    "name": "侯育名",
+    "englishName":"HOU,YU-MING",
+    "photoLink": "https://imgur.com/2Ul48Xg",
+    "photoLink_small": "https://imgur.com/2Ul48Xg",
+    "paper": "未定",
+    "paper_en": "undecided",
+    "url": ""
+  },
+  "林郁喬" : {
+    "year": 113,
+    "name": "林郁喬",
+    "englishName":"LIN,YU-QIAO",
+    "photoLink": "https://imgur.com/LaWS37F",
+    "photoLink_small": "https://imgur.com/LaWS37F",
+    "paper": "未定",
+    "paper_en": "undecided",
+    "url": ""
+  },
+  "周姿妤" : {
+    "year": 113,
+    "name": "周姿妤",
+    "englishName":"ZHOU,ZI-YU",
+    "photoLink": "https://imgur.com/ZkrVlB5",
+    "photoLink_small": "https://imgur.com/ZkrVlB5",
+    "paper": "未定",
+    "paper_en": "undecided",
+    "url": ""
+  },
+  "李以謙" : {
+    "year": 113,
+    "name": "李以謙",
+    "englishName":"LI,YI-QIAN",
+    "photoLink": "https://imgur.com/xzshJbG",
+    "photoLink_small": "https://imgur.com/xzshJbG",
+    "paper": "未定",
+    "paper_en": "undecided",
+    "url": ""
+  },
+  "宋福彬" : {
+    "year": 113,
+    "name": "宋福彬",
+    "englishName":"SONG,FU-BIN",
+    "photoLink": "https://imgur.com/X4JqCOt",
+    "photoLink_small": "https://imgur.com/X4JqCOt",
+    "paper": "未定",
+    "paper_en": "undecided",
+    "url": ""
+  },
   "吳柏諭": {
     "year": 112,
     "name": "吳柏諭",
@@ -319,7 +469,7 @@
     "paper_en": "A Distributed Architecture Design for the Operation-Injection Framework to Detect Android Application Anomalies in Parallel",
     "url": "https://hdl.handle.net/11296/fk339f"
   },
-  "吳冠穎": {
+  "吳冠穎109": {
     "year": 109,
     "name": "吳冠穎",
     "englishName":"WU,GUAN-YING",
