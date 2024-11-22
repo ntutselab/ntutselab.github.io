@@ -275,9 +275,9 @@
     "englishName":"CHEN,FENH-KAI",
     "photoLink": "https://academic.ntut.edu.tw/media/pnnp0y1k/a.png",
     "photoLink_small": "https://academic.ntut.edu.tw/media/qbofexzn/a-small.png",
-    "paper": "未定",
-    "paper_en": "undecided",
-    "url": ""
+    "paper": "應用LLM與Prompt Turning填寫網頁表單以支援網頁應用程式測試之研究",
+    "paper_en": "A Study of Using LLM and Prompt Turning to Fill in Web Forms to Support Web Application Testing",
+    "url": "https://hdl.handle.net/11296/2nryxe"
   },
   "李光耀": {
     "year": 111,
@@ -285,9 +285,9 @@
     "englishName":"LEE,KUANG-YAO",
     "photoLink": "https://academic.ntut.edu.tw/media/wo0bzyqv/a.png",
     "photoLink_small": "https://academic.ntut.edu.tw/media/33kdhvbf/a-small.png",
-    "paper": "未定",
-    "paper_en": "undecided",
-    "url": ""
+    "paper": "使用API資源依賴和大型語言模型對REST API進行模糊測試之研究",
+    "paper_en": "A Study on REST API Fuzzing Using API Resource Relations and Large Language Model",
+    "url": "https://hdl.handle.net/11296/k6af6r"
   },
   "韓宗穎": {
     "year": 111,
@@ -295,9 +295,9 @@
     "englishName":"HAN,ZONG-YING",
     "photoLink": "https://academic.ntut.edu.tw/media/0z5khd5k/a.png",
     "photoLink_small": "https://academic.ntut.edu.tw/media/afgfyock/a-small.png",
-    "paper": "未定",
-    "paper_en": "undecided",
-    "url": ""
+    "paper": "結合意圖分析與爬行方法以測試Android應用程式之研究",
+    "paper_en": "A Study on Integrating Intent Analysis with Crawling Approach for Testing Android Applications",
+    "url": "https://hdl.handle.net/11296/pny6yb"
   },
   "劉恒育": {
     "year": 111,
@@ -305,9 +305,9 @@
     "englishName":"LIU,HENG-YU",
     "photoLink": "https://academic.ntut.edu.tw/media/nucpfdwm/a.png",
     "photoLink_small": "https://academic.ntut.edu.tw/media/j3openko/a-small.png",
-    "paper": "未定",
-    "paper_en": "undecided",
-    "url": ""
+    "paper": "結合強化學習和好奇心驅動方法以提升Android應用程式之測試覆蓋率",
+    "paper_en": "Integrating Reinforcement Learning and Curiosity-Driven Approaches to Improve Test Coverage of Android Apps",
+    "url": "https://hdl.handle.net/11296/g2xqf5"
   },
   "潘建蒼": {
     "year": 111,
@@ -315,9 +315,9 @@
     "englishName":"PAN,CHIEN-TSANG",
     "photoLink": "https://academic.ntut.edu.tw/media/4esiax4b/a.png",
     "photoLink_small": "https://academic.ntut.edu.tw/media/xzthzopz/a-small.png",
-    "paper": "未定",
-    "paper_en": "undecided",
-    "url": ""
+    "paper": "應用彩色都卜勒影像於生物人工主動脈瓣膜異常偵測之研究",
+    "paper_en": "The Application of Color Doppler Imaging in the Detection of Aortic Bioprosthetic Valve Abnormalities",
+    "url": "https://hdl.handle.net/11296/sa46dm"
   },
   "陳政瑋": {
     "year": 111,
@@ -325,9 +325,9 @@
     "englishName":"CHEN,CHENG-WEI",
     "photoLink": "https://academic.ntut.edu.tw/media/rq2f0bjv/a.png",
     "photoLink_small": "https://academic.ntut.edu.tw/media/fjsgdpmw/a-small.png",
-    "paper": "未定",
-    "paper_en": "undecided",
-    "url": ""
+    "paper": "一個容器化、高延展與可擴充之 Android 應用程式自動化測試服務",
+    "paper_en": "A Containerized, Scalable, and Extendable Automated Testing Service for Android Applications",
+    "url": "https://hdl.handle.net/11296/wxvn9x"
   },
   "魏瑞霖": {
     "year": 111,
@@ -335,9 +335,9 @@
     "englishName":"WEI,RUI-LIN",
     "photoLink": "https://academic.ntut.edu.tw/media/jvobteam/a.png",
     "photoLink_small": "https://academic.ntut.edu.tw/media/k1aisaug/a-small.png",
-    "paper": "未定",
-    "paper_en": "undecided",
-    "url": ""
+    "paper": "應用注意力機制進行歌曲人聲辨識之研究",
+    "paper_en": "Singing Voice Detection Using Attention Mechanism",
+    "url": "https://hdl.handle.net/11296/q4gm9g"
   },
   "莊永": {
     "year": 111,
@@ -345,9 +345,9 @@
     "englishName":"ZHUANG,YONG",
     "photoLink": "https://academic.ntut.edu.tw/media/wnqppbhy/a.png",
     "photoLink_small": "https://academic.ntut.edu.tw/media/l1edhok0/a-small.png",
-    "paper": "未定",
-    "paper_en": "undecided",
-    "url": ""
+    "paper": "使用容器技術強化本地ClusterFuzz可擴展性之研究",
+    "paper_en": "A Study on Enhancing the Scalability of Local ClusterFuzz Using Container Technology",
+    "url": "https://hdl.handle.net/11296/pzcv8r"
   },
   "王子權": {
     "year": 111,
@@ -355,9 +355,9 @@
     "englishName":"WANG,TZU-CHUAN",
     "photoLink": "https://academic.ntut.edu.tw/media/3jmb0juh/a.png",
     "photoLink_small": "https://academic.ntut.edu.tw/media/ejagdozh/a-small.png",
-    "paper": "未定",
-    "paper_en": "undecided",
-    "url": ""
+    "paper": "使用多輸出卷積神經網路在辨識音訊人聲片段正確率之研究",
+    "paper_en": "Assessing the Accuracy of Multi-Output Convolutional Neural Networks for Audio Vocal Segment Detection",
+    "url": "https://hdl.handle.net/11296/647ese"
   },
   "李昀翰": {
     "year": 111,
@@ -365,9 +365,9 @@
     "englishName":"LEE,YUN-HAN",
     "photoLink": "https://academic.ntut.edu.tw/media/hyejsmee/a.png",
     "photoLink_small": "https://academic.ntut.edu.tw/media/wtwpdyqm/a-small.png",
-    "paper": "未定",
-    "paper_en": "undecided",
-    "url": ""
+    "paper": "使用SwinUNETR模型對主動脈剝離CT影像進行分割之研究",
+    "paper_en": "Using SwinUNETR for aortic dissection Segmentation in CT images",
+    "url": "https://hdl.handle.net/11296/9y962b"
   },
   "盧岳劭": {
     "year": 111,
