@@ -44,6 +44,9 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
     <script type="text/javascript" src="js/jquery.1.11.1.js"></script>
 
+    <!-- DOMpurify (XSS sanitizer) -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/dompurify/3.2.3/purify.min.js" integrity="sha512-Ll+TuDvrWDNNRnFFIM8dOiw7Go7dsHyxRp4RutiIFW/wm3DgDmCnRZow6AqbXnCbpWu93yM1O34q+4ggzGeXVA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 9]>
@@ -532,8 +535,8 @@
                     initString += `
                     <tr>
                         <td>${value[0]}</td>
-                        <td>${value[1]}</td>
-                        <td class=\"td_title\">${value[2]}</td>
+                        <td>${DOMPurify.sanitize(value[1])}</td>
+                        <td class=\"td_title\">${DOMPurify.sanitize(value[2])}</td>
                     </tr>
                     `;
                 });
