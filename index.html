@@ -537,25 +537,19 @@
 
                 groupMeetingList.reverse();
 
-                
-
-                // insert to html
-                let initString = "";
+                let $tbody = $('#table_GroupMeeting').children('tbody');
                 $.each( groupMeetingList, function( key, value ) {
                     if (value[0].includes('/')) { // parse to yyyy-mm-dd
                         let splitDate = value[0].split('/');
                         let tempDate = new Date(splitDate[0], parseInt(splitDate[1]) - 1, splitDate[2]);
                         value[0] = tempDate.toLocaleString('sv').split(' ')[0]
                     }
-                    initString += `
-                    <tr>
-                        <td>${value[0]}</td>
-                        <td>${value[1]}</td>
-                        <td class=\"td_title\">${value[2]}</td>
-                    </tr>
-                    `;
+                    let $tr = $('<tr>');
+                    $tr.append($('<td>').text(value[0]));
+                    $tr.append($('<td>').text(value[1]));
+                    $tr.append($('<td>').addClass('td_title').text(value[2]));
+                    $tbody.append($tr);
                 });
-                $('#table_GroupMeeting').children('tbody').append(initString);
 
                 // init this table to DataTable
                 $('#table_GroupMeeting').DataTable({
