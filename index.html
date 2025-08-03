@@ -508,7 +508,7 @@
         })
 
         $.ajax({
-            url: "https://docs.google.com/spreadsheets/d/e/2PACX-1vTFVhpN0aFxO4DXgFVkoIOypQ4fJSMxQeRMMQIQnPwS2xGX6QBaCZvAazKDEqnyxnfabyBVCG7EtHna/pubhtml",
+            url: "https://docs.google.com/spreadsheets/u/0/d/e/2PACX-1vTFVhpN0aFxO4DXgFVkoIOypQ4fJSMxQeRMMQIQnPwS2xGX6QBaCZvAazKDEqnyxnfabyBVCG7EtHna/pubhtml/sheet?headers=false&gid=1548787058",
             type: "GET",
             dataType: 'html',
             
@@ -517,7 +517,7 @@
                 let result = $(res);
                 // get table data from google sheet and parse to array
                 $( "tr", result ).each(function( index ) {
-                    if( index < 3) return;  // 去除前 2 排
+                    if( index < 2) return;  // 去除前 1 排
                     let row = [];
                     $( "td", this ).each(function( index ) {
                         if(index === 0) return; // 去除第 1 欄(時間戳)
