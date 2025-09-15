@@ -19,7 +19,7 @@ function switchLabMember() {
     const observer = lozad('.team-img'); // lazy loads elements with default selector as '.team-img'
     const observer_group_photo = lozad('.group-photo'); // lazy loads elements with default selector as '.group-photo'
     $container_team.isotope({
-        filter: '.113',
+        filter: '.114',
         animationOptions: {
             duration: 750,
             easing: 'linear',
@@ -27,7 +27,7 @@ function switchLabMember() {
         }
     });
 
-    $('img.113').each(function() {
+    $('img.114').each(function() {
         observer.triggerLoad(this);
     });
 
