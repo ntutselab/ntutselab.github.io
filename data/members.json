@@ -245,9 +245,9 @@
     "englishName":"WU,BO-YU",
     "photoLink": "https://academic.ntut.edu.tw/media/hdefhad3/a.png",
     "photoLink_small": "https://academic.ntut.edu.tw/media/jo5noyqh/a-small.png",
-    "paper": "未定",
-    "paper_en": "undecided",
-    "url": ""
+    "paper": "一個由 LLM 驅動之 AI 代理人透過操作 API 自動完成任務之研究",
+    "paper_en": "A Study on LLM-Driven AI Agents for Automated Task Execution through API Calls",
+    "url": "https://hdl.handle.net/11296/837n46"
   },
   "陳謙": {
     "year": 112,
@@ -255,9 +255,9 @@
     "englishName":"CHEN,CHIAN",
     "photoLink": "https://academic.ntut.edu.tw/media/d0zpy2ua/a.png",
     "photoLink_small": "https://academic.ntut.edu.tw/media/xc3bh1qm/a-small.png",
-    "paper": "未定",
-    "paper_en": "undecided",
-    "url": ""
+    "paper": "使用大型語言模型產生多組表單輸入資料以自動化爬行和測試網頁應用程式之研究",
+    "paper_en": "A Study on Using LLM to Generate Multiple Form Data for Automatically Crawling and Testing Web Applications",
+    "url": "https://hdl.handle.net/11296/fs44pb"
   },
   "黃鈺婷": {
     "year": 112,
@@ -265,9 +265,9 @@
     "englishName":"Huang,Yu-Ting",
     "photoLink": "https://academic.ntut.edu.tw/media/uenjyuye/a.png",
     "photoLink_small": "https://academic.ntut.edu.tw/media/4phipk1v/a-small.png",
-    "paper": "未定",
-    "paper_en": "undecided",
-    "url": ""
+    "paper": "基於自監督式學習分析A型主動脈剝離患者的CT影像以預測其住院情況",
+    "paper_en": "Using Self-Supervised Learning to Predict Hospitalization Outcomes from CT Images of Patients with Type A Aortic Dissection",
+    "url": "https://hdl.handle.net/11296/xu78xb"
   },
   "洪裔晟": {
     "year": 112,
@@ -275,9 +275,9 @@
     "englishName":"HUNG,YI-CHENG",
     "photoLink": "https://academic.ntut.edu.tw/media/3lqdoa3q/a.png",
     "photoLink_small": "https://academic.ntut.edu.tw/media/5jmh3aqk/a-small.png",
-    "paper": "未定",
-    "paper_en": "undecided",
-    "url": ""
+    "paper": "一個應用大型語言模型以功能驅動探索 Android 應用程式之方法",
+    "paper_en": "A Feature-Driven GUI Exploration Approach for Android Apps Using Large Language Models",
+    "url": "https://hdl.handle.net/11296/b9kecc"
   },
   "王派軒": {
     "year": 112,
@@ -285,9 +285,9 @@
     "englishName":"WANG,PAI-XUAN",
     "photoLink": "https://academic.ntut.edu.tw/media/gwfnqdyc/a.png",
     "photoLink_small": "https://academic.ntut.edu.tw/media/5s4i5la1/a-small.png",
-    "paper": "未定",
-    "paper_en": "undecided",
-    "url": ""
+    "paper": "基於測試資料遮罩之不確定量化模型之研究",
+    "paper_en": "A Study on Uncertainty Quantification Models Based on Test Data Masking",
+    "url": "https://hdl.handle.net/11296/4t5uzn"
   },
   "郭書廷": {
     "year": 112,
@@ -295,9 +295,9 @@
     "englishName":"GUO,SHU-TING",
     "photoLink": "https://academic.ntut.edu.tw/media/f41pn202/a.png",
     "photoLink_small": "https://academic.ntut.edu.tw/media/jqmhaxjk/a-small.png",
-    "paper": "未定",
-    "paper_en": "undecided",
-    "url": ""
+    "paper": "使用填表回饋與大型語言模型以自動探索網頁應用程式之研究",
+    "paper_en": "A Study on Automated Exploration of Web Applications Using Form-Filling Feedback and Large Language Models",
+    "url": "https://hdl.handle.net/11296/khhfu7"
   },
   "林祐清": {
     "year": 112,
@@ -305,9 +305,9 @@
     "englishName":"LIN,YU-CHING",
     "photoLink": "https://academic.ntut.edu.tw/media/frffbjma/a.png",
     "photoLink_small": "https://academic.ntut.edu.tw/media/tujhcgre/a-small.png",
-    "paper": "未定",
-    "paper_en": "undecided",
-    "url": ""
+    "paper": "使用大型語言模型自動生成模糊測試目標之研究",
+    "paper_en": "A Study on Automated Fuzz Target Generation Using Large Language Model",
+    "url": "https://hdl.handle.net/11296/p7ukg2"
   },
   "林建澄": {
     "year": 112,
@@ -315,9 +315,9 @@
     "englishName":"LIN,JIAN-CHENG",
     "photoLink": "https://academic.ntut.edu.tw/media/5rmlf0if/a.png",
     "photoLink_small": "https://academic.ntut.edu.tw/media/skwhhaaa/a-small.png",
-    "paper": "未定",
-    "paper_en": "undecided",
-    "url": ""
+    "paper": "使用大型語言模型結合 API 樹與 API 依賴關係圖之 REST API 測試研究",
+    "paper_en": "A Study on REST API Testing Using Large Language Models with API Tree and API Dependency Graph",
+    "url": "https://hdl.handle.net/11296/uy29fv"
   },
   "張鈺亭": {
     "year": 112,
@@ -325,9 +325,9 @@
     "englishName":"CHANG,YU-TING",
     "photoLink": "https://academic.ntut.edu.tw/media/jeppuesp/a.png",
     "photoLink_small": "https://academic.ntut.edu.tw/media/rzxgqa5l/a-small.png",
-    "paper": "未定",
-    "paper_en": "undecided",
-    "url": ""
+    "paper": "應用大型語言模型引導自動化爬行Android應用程式之研究",
+    "paper_en": "A Study on Guiding Automated Crawling of Android Applications Using Large Language Models",
+    "url": "https://hdl.handle.net/11296/ctf9yy"
   },
   "林俊陞": {
     "year": 112,
@@ -335,9 +335,9 @@
     "englishName":"LIN,JUNG-SHANG",
     "photoLink": "https://academic.ntut.edu.tw/media/ax1i5ma1/a.png",
     "photoLink_small": "https://academic.ntut.edu.tw/media/1nad1fxq/a-small.png",
-    "paper": "未定",
-    "paper_en": "undecided",
-    "url": ""
+    "paper": "結合LLM與輸入注入以測試Android應用程式之研究",
+    "paper_en": "A Study on Combining LLM and Input Injection for Testing Android Applications",
+    "url": "https://hdl.handle.net/11296/ep63qf"
   },
   "鍾亮節": {
     "year": 112,
@@ -355,9 +355,9 @@
     "englishName":"KU,TING-WEI",
     "photoLink": "https://academic.ntut.edu.tw/media/voflr1ji/a.png",
     "photoLink_small": "https://academic.ntut.edu.tw/media/l35a50jk/a-small.png",
-    "paper": "未定",
-    "paper_en": "undecided",
-    "url": ""
+    "paper": "彩色都卜勒心臟超音波早期偵測生物人工主動脈瓣膜退化之研究",
+    "paper_en": "Early Detection of Bioprosthetic Aortic Degeneration from Color Doppler Echocardiography",
+    "url": "https://hdl.handle.net/11296/tc36t2"
   },
   "陳峰楷": {
     "year": 111,
@@ -465,9 +465,9 @@
     "englishName":"LU,YUE-SHAO",
     "photoLink": "https://academic.ntut.edu.tw/media/dqedxzkt/a.png",
     "photoLink_small": "https://academic.ntut.edu.tw/media/niip5s3p/a-small.png",
-    "paper": "未定",
-    "paper_en": "undecided",
-    "url": ""
+    "paper": "使用深度學習技術區分人工智慧生成的音樂和音樂家創作的音樂",
+    "paper_en": "Using Deep Learning Techniques to Distinguish between AI-Generated Music and Music Composed by Human Musicians",
+    "url": "https://hdl.handle.net/11296/evv8v2"
   },
   "林楷融": {
     "year": 110,
