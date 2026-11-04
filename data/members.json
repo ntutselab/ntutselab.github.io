@@ -195,9 +195,9 @@
     "englishName":"WU,GUAN-YING",
     "photoLink": "https://i.imgur.com/HxOIqJo.jpeg",
     "photoLink_small": "https://i.imgur.com/HxOIqJo.jpeg",
-    "paper": "未定",
-    "paper_en": "undecided",
-    "url": ""
+    "paper": "基於檢索增強生成與逐步規劃之API任務自動化AI代理人研究",
+    "paper_en": "A Study of an AI Agent for Automating API Tasks Based on Retrieval-Augmented Generation and Stepwise Planning",
+    "url": "https://hdl.handle.net/11296/3d4wq8"
   },
   "沈宗毅" : {
     "year": 113,
@@ -205,9 +205,9 @@
     "englishName":"SHEN,ZONG-YI",
     "photoLink": "https://i.imgur.com/5ov2GI1.jpeg",
     "photoLink_small": "https://i.imgur.com/5ov2GI1.jpeg",
-    "paper": "未定",
-    "paper_en": "undecided",
-    "url": ""
+    "paper": "反思式LLM代理人於網頁應用程式測試研究",
+    "paper_en": "A Study on Reflective LLM Agents for Web Application Testing",
+    "url": "https://hdl.handle.net/11296/93k892"
   },
   "饒瑞軒" : {
     "year": 113,
@@ -215,9 +215,9 @@
     "englishName":"RAO,RUI-XUAN",
     "photoLink": "https://i.imgur.com/AS8cfXn.jpeg",
     "photoLink_small": "https://i.imgur.com/AS8cfXn.jpeg",
-    "paper": "未定",
-    "paper_en": "undecided",
-    "url": ""
+    "paper": "覆蓋率導向之LLM代理人於網頁應用程式探索之研究",
+    "paper_en": "A Study on Coverage-Guided LLM Agentsfor Web Application Exploration",
+    "url": "https://hdl.handle.net/11296/w97w39"
   },
   "簡珮倫" : {
     "year": 113,
@@ -225,9 +225,9 @@
     "englishName":"CHIEN,PEI-LUN",
     "photoLink": "https://i.imgur.com/Y3IPG71.jpeg",
     "photoLink_small": "https://i.imgur.com/Y3IPG71.jpeg",
-    "paper": "未定",
-    "paper_en": "undecided",
-    "url": ""
+    "paper": "透過模糊測試目標與種子生成以解決模糊測試阻礙之方法",
+    "paper_en": "A Method for Resolving Fuzz Blockers through Fuzz Target and Seed Generation",
+    "url": "https://hdl.handle.net/11296/yx86dr"
   },
   "楊凱崴" : {
     "year": 113,
@@ -235,9 +235,9 @@
     "englishName":"YANG,KAI-WEI",
     "photoLink": "https://i.imgur.com/OEcbdEM.jpeg",
     "photoLink_small": "https://i.imgur.com/OEcbdEM.jpeg",
-    "paper": "未定",
-    "paper_en": "undecided",
-    "url": ""
+    "paper": "基於 AI 代理人之 Android 應用程式功能驅動 GUI 探索",
+    "paper_en": "Feature-Driven GUI Exploration for Android Apps Using AI Agents",
+    "url": "https://hdl.handle.net/11296/z9774d"
   },
   "程翔" : {
     "year": 113,
@@ -255,9 +255,9 @@
     "englishName":"CHEN,YU-AN",
     "photoLink": "https://i.imgur.com/c38RFwZ.jpeg",
     "photoLink_small": "https://i.imgur.com/c38RFwZ.jpeg",
-    "paper": "未定",
-    "paper_en": "undecided",
-    "url": ""
+    "paper": "主動脈剝離術後 ICU 停留時間預測之研究",
+    "paper_en": "A Study on the Prediction of Postoperative ICU Length of Stay after Aortic Dissection Surgery",
+    "url": "https://hdl.handle.net/11296/7ckqdb"
   },
   "陳安琪" : {
     "year": 113,
@@ -265,9 +265,9 @@
     "englishName":"CHEN,AN-QI",
     "photoLink": "https://i.imgur.com/mcMbvTY.jpeg",
     "photoLink_small": "https://i.imgur.com/mcMbvTY.jpeg",
-    "paper": "未定",
-    "paper_en": "undecided",
-    "url": ""
+    "paper": "基於案例式學習與動態計畫修復之API任務大型語言模型代理人自我修正機制研究",
+    "paper_en": "A Self-Correction Mechanism for LLM Agents in API Tasks Using Case-Based Learning and Dynamic Plan Repair",
+    "url": "https://hdl.handle.net/11296/65x94e"
   },
   "張博翔" : {
     "year": 113,
@@ -275,9 +275,9 @@
     "englishName":"ZHANG,BO-XIANG",
     "photoLink": "https://i.imgur.com/TOLFtaC.jpeg",
     "photoLink_small": "https://i.imgur.com/TOLFtaC.jpeg",
-    "paper": "未定",
-    "paper_en": "undecided",
-    "url": ""
+    "paper": "胸部 CT 影像於 COPD 輔助診斷之研究",
+    "paper_en": "A Study on the Auxiliary Diagnosis of COPD using Chest CT images",
+    "url": "https://hdl.handle.net/11296/y8qsnu"
   },
   "柯瑞霖" : {
     "year": 113,
@@ -285,9 +285,9 @@
     "englishName":"KE,RUI-LIN",
     "photoLink": "https://i.imgur.com/CPSLJXU.jpeg",
     "photoLink_small": "https://i.imgur.com/CPSLJXU.jpeg",
-    "paper": "未定",
-    "paper_en": "undecided",
-    "url": ""
+    "paper": "Gherkin 驅動之 LLM 代理人於網頁應用程式自動化測試之研究",
+    "paper_en": "A Study on Gherkin-Driven LLM Agents for Automated Web Application Testing",
+    "url": "https://hdl.handle.net/11296/2bxqec"
   },
   "侯育名" : {
     "year": 113,
@@ -295,9 +295,9 @@
     "englishName":"HOU,YU-MING",
     "photoLink": "https://i.imgur.com/2Ul48Xg.jpeg",
     "photoLink_small": "https://i.imgur.com/2Ul48Xg.jpeg",
-    "paper": "未定",
-    "paper_en": "undecided",
-    "url": ""
+    "paper": "使用大語言模型生成測試情境於 REST API 模糊測試之研究",
+    "paper_en": "LLM-Enhanced REST API Fuzz Testing through Test Scenario Generation",
+    "url": "https://hdl.handle.net/11296/5jj9hk"
   },
   "林郁喬" : {
     "year": 113,
@@ -305,9 +305,9 @@
     "englishName":"LIN,YU-QIAO",
     "photoLink": "https://i.imgur.com/LaWS37F.jpeg",
     "photoLink_small": "https://i.imgur.com/LaWS37F.jpeg",
-    "paper": "未定",
-    "paper_en": "undecided",
-    "url": ""
+    "paper": "基於大型語言模型之 Android 應用程式功能辨識與功能驅動 GUI 探索",
+    "paper_en": "LLM-Based Android App Feature Identification and Feature-Driven GUI Exploration",
+    "url": "https://hdl.handle.net/11296/59zpd2"
   },
   "周姿妤" : {
     "year": 113,
@@ -325,9 +325,9 @@
     "englishName":"LI,YI-QIAN",
     "photoLink": "https://i.imgur.com/xzshJbG.jpeg",
     "photoLink_small": "https://i.imgur.com/xzshJbG.jpeg",
-    "paper": "未定",
-    "paper_en": "undecided",
-    "url": ""
+    "paper": "一個整合多子代理人架構與技能自動歸納之 LLM API 任務代理人之研究",
+    "paper_en": "A Study on an LLM Agent for API Tasks Integrating a Multi-Subagent Architecture and Automatic Skill Induction",
+    "url": "https://hdl.handle.net/11296/k4pk4g"
   },
   "宋福彬" : {
     "year": 113,
@@ -335,9 +335,9 @@
     "englishName":"SONG,FU-BIN",
     "photoLink": "https://i.imgur.com/X4JqCOt.jpeg",
     "photoLink_small": "https://i.imgur.com/X4JqCOt.jpeg",
-    "paper": "未定",
-    "paper_en": "undecided",
-    "url": ""
+    "paper": "基於雙重 PageRank 融合與代理式證據重排 序之微服務故障根因分析",
+    "paper_en": "Dual-PageRank Fusion with Agentic Evidence Reranking for Microservice RCA",
+    "url": "https://hdl.handle.net/11296/hf7v47"
   },
   "吳柏諭": {
     "year": 112,
@@ -445,9 +445,9 @@
     "englishName":"CHUNG,LIANG-CHIEH",
     "photoLink": "https://academic.ntut.edu.tw/media/wm0p3ar5/a.png",
     "photoLink_small": "https://academic.ntut.edu.tw/media/zsydhuga/a-small.png",
-    "paper": "未定",
-    "paper_en": "undecided",
-    "url": ""
+    "paper": "使用複數卷積神經網路於Demucs模型中分離人聲之研究",
+    "paper_en": "A Study of using Complex Convolutional Neural Networks Incorporated into Demucs Model for Vocal Separation",
+    "url": "https://hdl.handle.net/11296/r94282"
   },
   "顧庭維": {
     "year": 112,
@@ -635,9 +635,9 @@
     "englishName":"LIU,LI-XUAN",
     "photoLink": "https://academic.ntut.edu.tw/media/wb3njc2m/a.png",
     "photoLink_small": "https://academic.ntut.edu.tw/media/lr4n0gfk/a-small.png",
-    "paper": "未定",
-    "paper_en": "undecided",
-    "url": ""
+    "paper": "未目標驅動之大型語言模型 Android 應用程式自動化探索研究",
+    "paper_en": "Goal-Driven LLM-based Exploration for Android Applications",
+    "url": "https://hdl.handle.net/11296/m38h2a"
   },
   "張維俊": {
     "year": 110,
