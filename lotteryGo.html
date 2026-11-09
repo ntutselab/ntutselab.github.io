@@ -17,7 +17,7 @@
             text-align: center;
             padding: 20px;
         }
-          
+
         #app {
             width: 100%;
             height: 100%;
@@ -25,13 +25,13 @@
             justify-content: space-around;
             align-items: center;
         }
-        
+
         .doors {
             width: 20%;
             display: flex;
             flex-direction: column;
         }
-        
+
         .door {
             background: #fafafa;
             width: 200px;
@@ -40,25 +40,25 @@
             border-radius: 5px;
             margin: 5px auto;
         }
-        
+
         .boxes {
             /* transform: translateY(0); */
             transition: transform 1s ease-in-out;
         }
-        
+
         .box {
             display: flex;
             justify-content: center;
             align-items: center;
             font-size: 3rem;
         }
-        
+
         .buttons {
             width: 20%;
             display: flex;
             flex-direction: column;
         }
-        
+
         button {
             width: 200px;
             cursor: pointer;
@@ -86,7 +86,7 @@
             margin-top: 8px;
             text-align: center;
         }
-        
+
         #backToPage {
             position: fixed;
             left: 0;
@@ -126,7 +126,7 @@
             border-radius: 20px;
             overflow: hidden;
         }
-        
+
         #OpeningVideo video {
             display: block;
             margin: auto;
@@ -139,12 +139,12 @@
                 display: none;
                 opacity: 0;
             }
-        
+
             10% {
                 display: block;
                 opacity: 0;
             }
-        
+
             100% {
                 display: block;
                 opacity: 1;
@@ -156,12 +156,12 @@
                 display: block;
                 opacity: 1;
             }
-        
+
             90% {
                 display: block;
                 opacity: 0;
             }
-        
+
             100% {
                 display: none;
                 opacity: 0;
@@ -173,7 +173,7 @@
                 height: 80%;
             }
         }
-        
+
         @media screen and (max-width: 1200px) {
             #OpeningVideo div {
                 width: 440px;
@@ -196,18 +196,18 @@
             <div class="door">
                 <div class="boxes"></div>
             </div>
-            
+
             <div class="door">
                 <div class="boxes"></div>
             </div>
-            
-            <div class="door">
-                <div class="boxes"></div>
-            </div>      
+
             <div class="door">
                 <div class="boxes"></div>
             </div>
-        
+            <div class="door">
+                <div class="boxes"></div>
+            </div>
+
             <div class="door">
                 <div class="boxes"></div>
             </div>
@@ -248,73 +248,34 @@
     <div id="firework1" class="firework"></div>
     <div id="firework2" class="firework"></div>
 
-    <!-- jsDelivr  -->
+    <!-- Fireworks animation (existing external dependency, loaded once) -->
     <script src="https://cdn.jsdelivr.net/npm/fireworks-js@2.x/dist/index.umd.js"></script>
 
-    <!-- UNPKG -->
-    <script src="https://unpkg.com/fireworks-js@2.x/dist/index.umd.js"></script>
-
     <script>
-        // Pseudorandom number generator
-        // REF : https://stackoverflow.com/questions/521295/seeding-the-random-number-generator-in-javascript
-
-        // Generate a 128 bit hash value from a string
-        function cyrb128(str) {
-            let h1 = 1779033703, h2 = 3144134277,
-                h3 = 1013904242, h4 = 2773480762;
-            for (let i = 0, k; i < str.length; i++) {
-                k = str.charCodeAt(i);
-                h1 = h2 ^ Math.imul(h1 ^ k, 597399067);
-                h2 = h3 ^ Math.imul(h2 ^ k, 2869860233);
-                h3 = h4 ^ Math.imul(h3 ^ k, 951274213);
-                h4 = h1 ^ Math.imul(h4 ^ k, 2716044179);
+        // Cryptographically secure integer in [0, maxExclusive).
+        // Rejection sampling avoids modulo bias.
+        function secureRandomInt(maxExclusive) {
+            if (!Number.isSafeInteger(maxExclusive) || maxExclusive < 1 || maxExclusive > 0x100000000) {
+                throw new RangeError('Invalid random range');
             }
-            h1 = Math.imul(h3 ^ (h1 >>> 18), 597399067);
-            h2 = Math.imul(h4 ^ (h2 >>> 22), 2869860233);
-            h3 = Math.imul(h1 ^ (h3 >>> 17), 951274213);
-            h4 = Math.imul(h2 ^ (h4 >>> 19), 2716044179);
-            h1 ^= (h2 ^ h3 ^ h4), h2 ^= h1, h3 ^= h1, h4 ^= h1;
-            return [h1>>>0, h2>>>0, h3>>>0, h4>>>0];
-        }
 
-        // Generate random values in three ways
-        function sfc32(a, b, c, d) {
-            return function() {
-              a >>>= 0; b >>>= 0; c >>>= 0; d >>>= 0; 
-              var t = (a + b) | 0;
-              a = b ^ b >>> 9;
-              b = c + (c << 3) | 0;
-              c = (c << 21 | c >>> 11);
-              d = d + 1 | 0;
-              t = t + d | 0;
-              c = c + t | 0;
-              return (t >>> 0) / 4294967296;
-            }
-        }
+            const range = 0x100000000;
+            const limit = range - (range % maxExclusive);
+            const buffer = new Uint32Array(1);
+            let value;
+            do {
+                crypto.getRandomValues(buffer);
+                value = buffer[0];
+            } while (value >= limit);
 
-        function mulberry32(a) {
-            return function() {
-              var t = a += 0x6D2B79F5;
-              t = Math.imul(t ^ t >>> 15, t | 1);
-              t ^= t + Math.imul(t ^ t >>> 7, t | 61);
-              return ((t ^ t >>> 14) >>> 0) / 4294967296;
-            }
-        }
-
-        function xoshiro128ss(a, b, c, d) {
-            return function() {
-                var t = b << 9, r = b * 5; r = (r << 7 | r >>> 25) * 9;
-                c ^= a; d ^= b;
-                b ^= c; a ^= d; c ^= t;
-                d = d << 11 | d >>> 21;
-                return (r >>> 0) / 4294967296;
-            }
+            return value % maxExclusive;
         }
     </script>
 
     <script>
         let isDone = true;
         let isPlay = false;
+        let isBusy = false;
 
         function getAllMembers() {
             let arr = []
@@ -364,11 +325,11 @@
             }
         })
 
-        
+
         const doors = document.querySelectorAll('.door');
-        
+
         document.querySelector('#spinner').addEventListener('click', clickEvent);
-        
+
         function init(firstInit = true, groups = 1, duration = 1, items = getAllMembers()) {
             for (const door of doors) {
                 if (firstInit) {
@@ -376,11 +337,11 @@
                 } else if (door.dataset.spinned === '1') {
                     return;
                 }
-        
+
                 const boxes = door.querySelector('.boxes');
                 const boxesClone = boxes.cloneNode(false);
                 const pool = ['❓'];
-            
+
                 if (!firstInit) {
                     const arr = [];
                     for (let n = 0; n < (groups > 0 ? groups : 1); n++) {
@@ -388,7 +349,7 @@
                     }
                     pool.push(...shuffle(arr));
                     items.splice(items.findIndex((ele) => ele === pool[pool.length - 1]), 1);
-            
+
                     boxesClone.addEventListener(
                         'transitionstart',
                         function () {
@@ -399,7 +360,7 @@
                         },
                         { once: true }
                     );
-            
+
                     boxesClone.addEventListener(
                         'transitionend',
                         function () {
@@ -411,7 +372,7 @@
                         { once: true }
                     );
                 }
-            
+
                 for (let i = pool.length - 1; i >= 0; i--) {
                     const box = document.createElement('div');
                     box.classList.add('box');
@@ -426,26 +387,14 @@
             }
         }
 
-        let seed = null;
-
-        function rand() {
-            if (!seed) seed = cyrb128(new Date().toUTCString());
-            switch (Math.floor(Math.random() * 3)) {
-                case 0:
-                    return sfc32(seed[0], seed[1], seed[2], seed[3])();
-                case 1:
-                    return mulberry32(seed[0])();
-                case 2:
-                    return xoshiro128ss(seed[0], seed[1], seed[2], seed[3])();
-            }
-        }
-
         function clickEvent() {
-            seed = cyrb128(new Date().toUTCString());
+            if (isBusy || !isDone) return;
+            isBusy = true;
+            document.querySelector('#spinner').disabled = true;
             playOpeningVideo();
             setTimeout(spin, 3250); // let spin start after video
         }
-        
+
         async function spin() {
             if (!isDone) return;
             if (isPlay) {
@@ -453,21 +402,30 @@
             }
             isDone = false;
             init(false, 1, 2);
-            
+
             for (const door of doors) {
                 const boxes = door.querySelector('.boxes');
                 const duration = parseInt(boxes.style.transitionDuration);
                 boxes.style.transform = 'translateY(0)';
                 await new Promise((resolve) => setTimeout(resolve, duration * 100));
             }
+            // The last door begins about (doors.length - 1) * 200 ms
+            // after the first one. Wait for its 2-second transition.
+            const lastDuration = parseFloat(doors[doors.length - 1]
+                .querySelector('.boxes').style.transitionDuration) * 1000;
+            const stagger = lastDuration * 0.1;
+            await new Promise((resolve) => setTimeout(resolve, Math.max(0, lastDuration - stagger)));
+
             isDone = true;
             isPlay = true;
+            isBusy = false;
+            document.querySelector('#spinner').disabled = false;
         }
-        
+
         function shuffle([...arr]) {
             let m = arr.length;
             while (m) {
-                const i = Math.floor(rand() * m--);
+                const i = secureRandomInt(m--);
                 [arr[m], arr[i]] = [arr[i], arr[m]];
             }
             return arr;
@@ -478,6 +436,7 @@
             videoElement.style.animation = "fadeInFromNone 0.4s ease-out";
             videoElement.style.display = 'block';
             const video = document.querySelector('#OpeningVideo video');
+            video.currentTime = 0;
             video.play();
             setTimeout(()=>{
                 const audio = document.querySelector('audio');
@@ -488,7 +447,7 @@
                 videoElement.style.animation = "fadeOutFromNone 0.4s ease-out";
                 videoElement.style.display = 'none';
                 launchFirework();
-            });
+            }, { once: true });
         }
 
         function launchFirework() {
@@ -501,7 +460,7 @@
                 }, Math.random() * 4000);
             }
         }
-        
+
         init();
     </script>
   </body>
